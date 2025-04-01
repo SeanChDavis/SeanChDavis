@@ -12,7 +12,7 @@ function App() {
                 </div>
                 <div>
                     <h1 className={`text-white text-2xl md:text-3xl font-extrabold mb-0`}>Sean Christopher Davis</h1>
-                    <span className={`text-primary text-md font-semibold`} style={{ fontSize: '1rem' }}>Veteran, Developer, Student, & Technologist</span>
+                    <span className={`text-primary text-md font-semibold`} style={{ fontSize: '1rem' }}>Veteran. Developer. Technologist. Student of Systems.</span>
                 </div>
             </header>
 
