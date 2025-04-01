@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Customizing the default theme */
+@theme {
+
+	/* Font Families */
+	--font-fam: 'Red Hat Display', sans-serif;
+
+	/* Colors */
+	--color-primary: #76cfec;
+	--color-primary-text: #dfe4f5;
+	--color-field-bg: #131c30;
+	--color-form-bg: #0b3c50;
+	--color-button-bg: #69c0d9;
+	--color-button-text: #0b3c50;
+}
+
+/* Global Styles */
+body {
+	@apply font-fam;
+	background-size: 100% 100%;
+	background: #131c30 linear-gradient(to right top, #123a46, #103342, #102b3d, #112337, #131c30) fixed;
+	height: 100vh;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0 1.5rem;
+}
+
+p {
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+a {
+	color: var(--color-primary-text);
+	text-decoration: none;
+	border-bottom: 2px dotted var(--color-primary);
+}
+
+a:active,
+a:focus,
+a:hover {
+	border-bottom-style: solid;
+}
