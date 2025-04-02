@@ -9,8 +9,8 @@ const Header = () => {
                     <Link to="/" className="hover:text-gray-800">Sean <span>Ch<span className="text-gray-500">ristopher</span></span> Davis</Link>
                 </h1>
                 <nav className="mt-2 md:mt-0 space-x-4 text-sm text-gray-500 font-semibold">
-                    <NavLink to="/" className={({ isActive }) => isActive ? "text-gray-800" : "hover:text-gray-800"}>
-                        Home
+                    <NavLink to="/blog" className={({ isActive }) => isActive ? "text-gray-800" : "hover:text-gray-800"}>
+                        Blog
                     </NavLink>
                     <NavLink to="/about" className={({ isActive }) => isActive ? "text-gray-800" : "hover:text-gray-800"}>
                         About

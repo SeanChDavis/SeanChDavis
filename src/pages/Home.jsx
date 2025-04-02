@@ -35,7 +35,7 @@ export default function Home() {
                 <h2 className="text-lg font-bold text-gray-900">Explore More</h2>
                 <ul className="list-none list-inside marker:text-cyan-700">
                     <li><Link to="/about" className="text-cyan-600 font-semibold underline hover:no-underline">About</Link> – More on my journey and mindset</li>
-                    <li><Link to="/now" className="text-cyan-600 font-semibold underlne hover:no-underline">Now</Link> – What I’m focused on right now</li>
+                    <li><Link to="/now" className="text-cyan-600 font-semibold underline hover:no-underline">Now</Link> – What I’m focused on right now</li>
                     <li><Link to="/uses" className="text-cyan-600 font-semibold underline hover:no-underline">Uses</Link> – My tools, stack, and workflow</li>
                     <li><Link to="/projects" className="text-cyan-600 font-semibold underline hover:no-underline">Projects</Link> – Experiments and things I’ve built</li>
                     <li><Link to="/contact" className="text-cyan-600 font-semibold underline hover:no-underline">Contact</Link> – Send me an email</li>
