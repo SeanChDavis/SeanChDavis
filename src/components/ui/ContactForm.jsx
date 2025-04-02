@@ -28,25 +28,25 @@ function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-4">
             <div>
                 <label className="block text-sm font-medium text-gray-700">Name</label>
-                <input name="name" type="text" required className="w-full mt-1 p-2 border-2 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
+                <input name="name" type="text" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
             </div>
 
             <div>
                 <label className="block text-sm font-medium text-gray-700">Email</label>
-                <input name="email" type="email" required className="w-full mt-1 p-2 border-2 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
+                <input name="email" type="email" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
             </div>
 
             <div>
                 <label className="block text-sm font-medium text-gray-700">Message</label>
-                <textarea name="message" rows="4" required className="w-full mt-1 p-2 border-2 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500"></textarea>
+                <textarea name="message" rows="4" minLength="10" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500"></textarea>
             </div>
 
             <button type="submit" disabled={status === 'loading'} className="px-4 py-2 border-0 outline-0 cursor-pointer bg-cyan-900 text-white rounded hover:bg-gray-900">
                 {status === 'loading' ? 'Sending...' : 'Send Message'}
             </button>
 
-            {status === 'success' && <p className="text-green-600 text-sm">Thanks! I’ll be in touch soon.</p>}
-            {status === 'error' && <p className="text-red-600 text-sm">Something went wrong. Try again?</p>}
+            {status === 'success' && <p className="text-green-600 text-md">Thanks! I’ll be in touch soon.</p>}
+            {status === 'error' && <p className="text-red-600 text-md">Something went wrong. Try again?</p>}
         </form>
     );
 }

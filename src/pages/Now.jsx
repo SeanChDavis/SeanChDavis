@@ -10,27 +10,27 @@ export default function Now() {
             <div className="space-y-6">
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Finishing my degree</h2>
-                    <p>Wrapping up a BS in Information Systems & Technology at UMSL. I graduate Spring 2025.</p>
+                    <p>Wrapping up a BS in Information Systems & Technology at UMSL. I graduate May 2025.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Preparing for the Netherlands</h2>
-                    <p>My DAFT visa application is in motion. I’m targeting a September 2025 relocation to Rotterdam.</p>
+                    <p>My plan for moving is in motion. I’m targeting a September 2025 relocation to Rotterdam.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Living light</h2>
-                    <p>I’m reducing digital and real-world clutter. Every domain, email, tool, and habit I keep has a clear purpose.</p>
+                    <p>I’ve reduced digital and real-world clutter. My peace is fiercely guarded.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Building SeanChDavis.com</h2>
-                    <p>This site is my long-term digital home. I’m slowly expanding it into something bigger than a portfolio.</p>
+                    <p>This site is my long-term digital home. I’m slowly expanding it to serve as my only platform.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Personal system design</h2>
-                    <p>I’m refining how I manage time, money, energy, and focus — no bloat, just rhythm.</p>
+                    <p>I’m constantly designing systems to help me stay organized and focused on my goals.</p>
                 </div>
             </div>
         </main>

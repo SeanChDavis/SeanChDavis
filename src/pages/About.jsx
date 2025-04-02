@@ -1,6 +1,7 @@
-import React from 'react';
+import { Link, NavLink } from "react-router-dom";
+import React from "react";
 
-export default function About() {
+const About = () => {
     return (
         <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6 text-gray-700">
             <h1 className="text-2xl font-extrabold text-gray-900">About Sean</h1>
@@ -17,7 +18,9 @@ export default function About() {
 
             <p>Until then, education is my number one priority. While I still write code and consider myself to be an active technologist, homework comes first.</p>
 
-            <p>If you made it this far, I appreciate you. Feel free to reach out on <a href="https://www.linkedin.com/in/SeanChDavis/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 font-semibold underline hover:no-underline">LinkedIn</a> or email me at <a href="mailto:seanchdavis@gmail.com" className="text-cyan-700 font-semibold underline hover:no-underline">seanchdavis@gmail.com</a>.</p>
+            <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className="text-cyan-600 font-semibold underline hover:no-underline">reach out</Link>.</p>
         </main>
     );
 }
+
+export default About;
