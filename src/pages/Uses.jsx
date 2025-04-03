@@ -8,7 +8,7 @@ export default function Uses() {
             <div className="space-y-6">
                 <section>
                     <h2 className="text-lg font-bold text-gray-900 mb-1">Development</h2>
-                    <ul className="list-disc list-inside marker:text-cyan-700">
+                    <ul className="list-disc list-inside marker:text-gray-300">
                         <li>Code Editor: JetBrains IDEs (primary), VS Code (backup)</li>
                         <li>Stack: React, Vite, Tailwind, Firebase, Git</li>
                         <li>Browser: Chrome (DevTools), Firefox (secondary)</li>
@@ -19,7 +19,7 @@ export default function Uses() {
 
                 <section>
                     <h2 className="text-lg font-bold text-gray-900 mb-1">Productivity</h2>
-                    <ul className="list-disc list-inside marker:text-cyan-700">
+                    <ul className="list-disc list-inside marker:text-gray-300">
                         <li>Notes & Planning: <a href="https://obsidian.md/" className="text-cyan-700 font-semibold underline hover:no-underline">Obsidian</a>, OneDrive, Microsoft Office, pen + paper</li>
                         <li>Passwords: LastPass</li>
                         <li>Finances: Custom spreadsheets, manual tracking (may build an app for this)</li>
@@ -29,7 +29,7 @@ export default function Uses() {
 
                 <section>
                     <h2 className="text-lg font-bold text-gray-900 mb-1">Hardware</h2>
-                    <ul className="list-disc list-inside marker:text-cyan-700">
+                    <ul className="list-disc list-inside marker:text-gray-300">
                         <li>Laptop: Dell XPS, 32GB Ram, Windows 11 Pro</li>
                         <li>Phone: Samsung Galaxy 23 Ultra</li>
                         <li>Tablet: Galaxy Tab Ultra</li>
@@ -39,7 +39,7 @@ export default function Uses() {
 
                 <section>
                     <h2 className="text-lg font-bold text-gray-900 mb-1">Lifestyle & Systems</h2>
-                    <ul className="list-disc list-inside marker:text-cyan-700">
+                    <ul className="list-disc list-inside marker:text-gray-300">
                         <li>Cloud: <a href="https://obsidian.md/" className="text-cyan-700 font-semibold underline hover:no-underline">Obsidian</a>, OneDrive + Google Drive (backup only)</li>
                         <li>Email: Gmail (primary: seanchdavis@gmail.com)</li>
                         <li>Domains: NameCheap</li>
