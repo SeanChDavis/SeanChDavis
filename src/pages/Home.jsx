@@ -23,11 +23,11 @@ export default function Home() {
             <section className="space-y-4">
                 <h2 className="text-lg font-bold text-gray-900">Highlights</h2>
                 <ul className="list-disc list-inside marker:text-cyan-700">
-                    <li><span className="font-bold">2003</span> – Joined the U.S. Army (92A, Iraq x 3 + South Korea)</li>
+                    <li><span className="font-bold">2003</span> – Joined the U.S. Army (92A, Iraq x 3 + S. Korea)</li>
                     <li><span className="font-bold">2012</span> – Transitioned to full-time web development</li>
                     <li><span className="font-bold">2021</span> – Sold company (w/ partners) and reset professional direction</li>
                     <li><span className="font-bold">2023</span> – Returned to university to complete Information Systems degree</li>
-                    <li><span className="font-bold">2025</span> – Planned move to the Rotterdam, Netherlands</li>
+                    <li><span className="font-bold">2025</span> – Began planning move to Rotterdam, Netherlands</li>
                 </ul>
             </section>
 
