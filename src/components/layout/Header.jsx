@@ -8,7 +8,7 @@ const Header = () => {
                 <h1 className="text-lg font-semibold">
                     <Link to="/" className="hover:text-gray-800">Sean <span>Ch<span className="text-gray-500">ristopher</span></span> Davis</Link>
                 </h1>
-                <nav className="mt-2 md:mt-0 space-x-4 text-sm text-gray-500 font-semibold">
+                <nav className="mt-2 md:mt-0 space-x-2 sm:space-x-4 text-sm text-gray-500 font-semibold">
                     <NavLink to="/about" className={({ isActive }) => isActive ? "text-gray-800" : "hover:text-gray-800"}>
                         About
                     </NavLink>
