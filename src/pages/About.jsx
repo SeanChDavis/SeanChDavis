@@ -16,7 +16,7 @@ const About = () => {
 
             <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my career, I returned to school - right back into the University of Missouri system, actually - pursuing a Bachelor of Science in Information Systems and Technology. I will graduate from the University of Missouri - St. Louis (UMSL) in May 2025.</p>
 
-            <p>Until then, education is my number one priority. While I still write code and consider myself to be an active technologist, homework comes first.</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. Planning began in July 2024 and the move will be executed in September 2025 using the <a href="https://www.cardon.nl/blog/the-dutch-daft-visa-for-american-immigrants-in-5-steps" target="_blank" rel="noopener noreferrer" className="text-cyan-600 font-semibold underline hover:no-underline">DAFT visa</a>. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className="text-cyan-600 font-semibold underline hover:no-underline">reach out</Link>.</p>
         </main>
