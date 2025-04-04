@@ -9,7 +9,7 @@ export default function NetherlandsJourney() {
     return (
         <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-8 text-gray-700">
             <h1 className="text-2xl font-extrabold text-gray-900">My Journey to the Netherlands</h1>
-            <p>This is a living documentation of my journey from the US to the Netherlands. At the time of this writing, I am not physical there yet. Mentally, the move started in June of 2024. Follow along.</p>
+            <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
 
             <div className="space-y-10 border-l border-gray-300 ml-2">
                 {journeyData.map((entry, index) => (
