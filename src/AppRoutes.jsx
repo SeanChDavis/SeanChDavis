@@ -7,6 +7,7 @@ import Now from "./pages/Now.jsx";
 import Uses from "./pages/Uses.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
+import NetherlandsJourney from "./pages/NetherlandsJourney.jsx";
 
 const AppRoutes = () => {
     return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
                 <Route path="uses" element={<Uses />} />
                 <Route path="projects" element={<Projects />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="netherlands-journey" element={<NetherlandsJourney />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
         </Routes>

@@ -1,21 +1,22 @@
 import {Link} from "react-router-dom";
+import siteData from "../data/siteData.json";
 
 export default function Home() {
     return (
         <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-8 text-gray-700">
 
             <section className="space-y-4">
-                <h1 className="text-2xl font-extrabold text-gray-900">Veteran. Developer. Technologist. Student of Systems.</h1>
+                <h1 className="text-2xl font-extrabold text-gray-900">{siteData.siteTagline}</h1>
                 <p>
-                    I’m Sean — a former U.S. Army service member turned web developer and information systems professional. I’ve been building websites since 2008 and navigating systems — military, tech, academic, and personal — all my life. My life is built around intelligent systems and deliberate structure — applying strategy to everything.
+                    I’m Sean — a former U.S. Army service member turned web developer and information systems professional. Since 2008, I’ve been building websites and navigating various systems — military, tech, academic, and personal. I enjoy mapping things out and operating within strategically set boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and explore the intersections of technology, systems, and life.
                 </p>
             </section>
 
             <section className="space-y-2">
                 <h2 className="text-lg font-bold text-gray-900">Currently</h2>
                 <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
-                    <li>Finishing my BS in Information Systems & Technology at UMSL (Spring 2025)</li>
-                    <li>Preparing for relocation to the Netherlands via the <a href="https://www.cardon.nl/blog/the-dutch-daft-visa-for-american-immigrants-in-5-steps" target="_blank" rel="noopener noreferrer" className="text-cyan-600 font-semibold underline hover:no-underline">DAFT visa</a></li>
+                    <li>Finishing my BS in Information Systems & Technology at <abbr className="no-underline" title="University of Missouri - St. Louis">UMSL</abbr> (Spring 2025)</li>
+                    <li><Link to="/netherlands-journey" className="text-cyan-600 font-semibold underline hover:no-underline">Preparing for relocation to the Netherlands</Link> using the DAFT visa</li>
                     <li>Centered around focus, ambition, and long-term strategy</li>
                     <li>Building this site as my all-encompassing digital platform</li>
                 </ul>

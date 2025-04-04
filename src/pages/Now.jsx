@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function Now() {
     return (
@@ -15,7 +16,7 @@ export default function Now() {
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Preparing for the Netherlands</h2>
-                    <p>My plan for moving is in motion. I’m targeting a September 2025 relocation to Rotterdam.</p>
+                    <p>My plan for moving is in motion. I’m targeting a September 2025 <Link to="/netherlands-journey" className="text-cyan-600 font-semibold underline hover:no-underline">relocation to Rotterdam, NL</Link>.</p>
                 </div>
 
                 <div>

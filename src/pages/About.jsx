@@ -1,9 +1,11 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React from "react";
+import siteData from "../data/siteData.json";
 
 const About = () => {
     return (
         <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6 text-gray-700">
+
             <h1 className="text-2xl font-extrabold text-gray-900">About Sean</h1>
 
             <p>Thanks for taking the time to read a little more. I won't keep you long.</p>
@@ -16,9 +18,16 @@ const About = () => {
 
             <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my career, I returned to school - right back into the University of Missouri system, actually - pursuing a Bachelor of Science in Information Systems and Technology. I will graduate from the University of Missouri - St. Louis (UMSL) in May 2025.</p>
 
-            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. Planning began in July 2024 and the move will be executed in September 2025 using the <a href="https://www.cardon.nl/blog/the-dutch-daft-visa-for-american-immigrants-in-5-steps" target="_blank" rel="noopener noreferrer" className="text-cyan-600 font-semibold underline hover:no-underline">DAFT visa</a>. 🎉</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className="text-cyan-600 font-semibold underline hover:no-underline">Planning began in July 2024</Link> and the move will be executed in September 2025 using the DAFT visa. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className="text-cyan-600 font-semibold underline hover:no-underline">reach out</Link>.</p>
+
+            <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-28 h-28 rounded-full mt-8" />
+
+            <p className="text-md text-gray-700 mt-4">
+                <strong>Sean Davis</strong>, <br />
+                {siteData.siteTagline}
+            </p>
         </main>
     );
 }
