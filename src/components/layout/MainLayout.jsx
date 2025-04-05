@@ -3,6 +3,7 @@ import Footer from "./Footer.jsx";
 import React from "react";
 import {Outlet} from "react-router-dom";
 import ThemeToggle from "../ui/ThemeToggle.jsx";
+import TextSizeToggle from "../ui/TextSizeToggle";
 
 const MainLayout = () => {
 
@@ -12,7 +13,7 @@ const MainLayout = () => {
             <div className={"flex-grow relative"}>
                 <div className={"w-full absolute right-5 top-5"}>
                     <div className="ml-auto text-right">
-                        <ThemeToggle />
+                        <ThemeToggle /><TextSizeToggle />
                     </div>
                 </div>
                 <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">

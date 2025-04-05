@@ -29,11 +29,8 @@ export default function ThemeToggle() {
     };
 
     return (
-        <button
-            onClick={toggleTheme}
-            className="text-sm text-gray-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition"
-        >
-            <MdBrightnessMedium title={"Toggle Dark Mode"} className={`text-lg cursor-pointer ${themeToggleColor}`} />
+        <button onClick={toggleTheme}>
+            <MdBrightnessMedium title={"Toggle Dark Mode"} className={`text-lg mr-2 cursor-pointer ${themeToggleColor}`} />
         </button>
     );
 }
