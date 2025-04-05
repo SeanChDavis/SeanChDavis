@@ -37,9 +37,13 @@ export default function Home() {
             </section>
 
             <section className="space-y-2">
+                <h2 className={headingClasses}>More About Sean</h2>
+                <p>For more information about my journey up to this point, <Link to="/about" className={linkClasses}>check out the About page</Link>. I share a few more details there, including my academic background, places I've lived, and where I'm headed next.</p>
+            </section>
+
+            <section className="space-y-2">
                 <h2 className={headingClasses}>Explore More</h2>
                 <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
-                    <li><Link to="/about" className={linkClasses}>About</Link> – More on my journey and mindset</li>
                     <li><Link to="/now" className={linkClasses}>Now</Link> – What I’m focused on right now</li>
                     <li><Link to="/uses" className={linkClasses}>Uses</Link> – My tools, stack, and workflow</li>
                     <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>

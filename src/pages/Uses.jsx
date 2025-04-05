@@ -53,6 +53,12 @@ export default function Uses() {
                         <li>Planning: <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"}>Wise</a>, EUR-based budgeting for <Link to="/netherlands-journey" className={linkClasses}>Netherlands move</Link></li>
                     </ul>
                 </section>
+
+                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-md text-gray-700 dark:text-gray-400">
+                        This list is updated as my setup evolves. Sometimes I like to role my own, but I'm not afraid to use a quality solution. To see my output when using these tools, <Link to="/projects" className={linkClasses}>check out the Projects page</Link>.
+                    </p>
+                </div>
             </div>
         </>
     );

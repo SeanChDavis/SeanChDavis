@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function Projects() {
 
@@ -52,6 +53,12 @@ export default function Projects() {
                         <li>This site: A personal platform, built in React + Vite. It’ll continue to evolve over time.</li>
                     </ul>
                 </section>
+
+                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-md text-gray-700 dark:text-gray-400">
+                        The fun never ends. If you have a project in mind or would like to collaborate, <Link to="/contact" className={linkClasses}>reach out to me</Link>. I’m open to discussing opportunities and partnerships.
+                    </p>
+                </div>
             </div>
         </>
     );

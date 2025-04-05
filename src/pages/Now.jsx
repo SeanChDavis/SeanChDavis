@@ -37,6 +37,12 @@ export default function Now() {
                     <h2 className={headingClasses}>Personal system design</h2>
                     <p>We have all created and lived by some sort of life management system. It's how we do things. It's we you survive. I am actively designing mine with intent and expectations of specific output.</p>
                 </div>
+
+                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-md text-gray-700 dark:text-gray-400">
+                        I use a number of tools and resources to manage and keep track of my goals and projects. If you're curious about my setup <Link to="/uses" className={linkClasses}>check out the Uses page</Link>.
+                    </p>
+                </div>
             </div>
         </>
     );
