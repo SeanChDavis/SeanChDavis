@@ -27,7 +27,7 @@ const About = () => {
             <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-28 h-28 rounded-full mt-8" />
 
             <p className="text-md text-gray-700 dark:text-gray-400 mt-4">
-                <strong className="dark:text-gray-200">Sean Davis</strong>, <br />
+                <strong className="dark:text-gray-200">{siteData.siteNameShort}</strong>, <br />
                 {siteData.siteTagline}
             </p>
         </>
