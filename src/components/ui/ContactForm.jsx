@@ -27,21 +27,21 @@ function ContactForm() {
     return (
         <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-                <label className="block text-sm font-medium text-gray-700">Name</label>
-                <input name="name" type="text" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-400">Name</label>
+                <input name="name" type="text" required className="w-full mt-1 p-2 bg-gray-100 dark:bg-gray-800 border-1 border-gray-300 dark:border-gray-900 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
             </div>
 
             <div>
-                <label className="block text-sm font-medium text-gray-700">Email</label>
-                <input name="email" type="email" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-400">Email</label>
+                <input name="email" type="email" required className="w-full mt-1 p-2 bg-gray-100 dark:bg-gray-800 border-1 border-gray-300 dark:border-gray-900 rounded-sm focus:ring-cyan-500 focus:border-cyan-500" />
             </div>
 
             <div>
-                <label className="block text-sm font-medium text-gray-700">Message</label>
-                <textarea name="message" rows="4" minLength="10" required className="w-full mt-1 p-2 bg-gray-100 border-1 border-gray-300 rounded-sm focus:ring-cyan-500 focus:border-cyan-500"></textarea>
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-400">Message</label>
+                <textarea name="message" rows="4" minLength="10" required className="w-full mt-1 p-2 bg-gray-100 dark:bg-gray-800 border-1 border-gray-300 dark:border-gray-900 rounded-sm focus:ring-cyan-500 focus:border-cyan-500"></textarea>
             </div>
 
-            <button type="submit" disabled={status === 'loading'} className="px-4 py-2 border-0 outline-0 cursor-pointer bg-cyan-900 text-white rounded hover:bg-gray-900">
+            <button type="submit" disabled={status === 'loading'} className="transition duration-300 ease-in-out font-bold px-4 py-2 border-0 outline-0 cursor-pointer bg-cyan-900 text-white rounded hover:bg-gray-900 dark:hover:bg-gray-800">
                 {status === 'loading' ? 'Sending...' : 'Send Message'}
             </button>
 
