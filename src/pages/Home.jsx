@@ -37,7 +37,6 @@ export default function Home() {
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>More About Sean</h2>
                 <p>For more information about my journey up to this point, <Link to="/about" className={linkClasses}>check out the About page</Link>. I share a few more details there, including my academic background, places I've lived, and where I'm headed next.</p>
             </section>
 
