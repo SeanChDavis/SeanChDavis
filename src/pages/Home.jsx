@@ -29,7 +29,7 @@ export default function Home() {
                     <li><span className="font-bold">2012</span> – Transitioned to full-time web development</li>
                     <li><span className="font-bold">2021</span> – Sold company (w/ partners) and reset professional direction</li>
                     <li><span className="font-bold">2023</span> – Returned to university to complete Information Systems degree</li>
-                    <li><span className="font-bold">2025</span> – Began planning move to Rotterdam, Netherlands</li>
+                    <li><span className="font-bold">2024</span> – Began planning move to Rotterdam, Netherlands</li>
                 </ul>
             </section>
 

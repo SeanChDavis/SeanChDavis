@@ -9,29 +9,30 @@ export default function Now() {
             <p>This is a snapshot of where my focus is right now — last updated April 2025.</p>
 
             <div className="space-y-6">
+
                 <div>
-                    <h2 className="text-lg font-bold text-gray-900">Finishing my degree</h2>
-                    <p>Wrapping up a BS in Information Systems & Technology at UMSL. I graduate May 2025.</p>
+                    <h2 className="text-lg font-bold text-gray-900">BS in Information Systems & Technology</h2>
+                    <p>I am wrapping up a bachelor's degree at University of Missouri - St. Louis. I graduate May 2025. Until then, studies are my top priority. I do not intend to pursue a master's degree.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Preparing for the Netherlands</h2>
-                    <p>My plan for moving is in motion. I’m targeting a September 2025 <Link to="/netherlands-journey" className="text-cyan-600 font-semibold underline hover:no-underline">relocation to Rotterdam, NL</Link>.</p>
+                    <p>My plan for moving to the Netherlands is in motion. I’m targeting a September 2025 <Link to="/netherlands-journey" className="text-cyan-600 font-semibold underline hover:no-underline">relocation to Rotterdam, NL</Link> using the DAFT visa.</p>
                 </div>
 
                 <div>
-                    <h2 className="text-lg font-bold text-gray-900">Living light</h2>
-                    <p>I’ve reduced digital and real-world clutter. My peace is fiercely guarded.</p>
+                    <h2 className="text-lg font-bold text-gray-900">Living light, staying agile</h2>
+                    <p>I’ve reduced digital and real-world clutter with a goal of operating efficiently and with the ability to adjust when needed. I am always on the move in one way or another. Join, but do not impede.</p>
                 </div>
 
                 <div>
-                    <h2 className="text-lg font-bold text-gray-900">Building SeanChDavis.com</h2>
-                    <p>This site is my long-term digital home. I’m slowly expanding it to serve as my only platform.</p>
+                    <h2 className="text-lg font-bold text-gray-900">Evolving SeanChDavis.com</h2>
+                    <p>After nearly two decades of juggling multiple domain names, email addresses, and web platforms, I've decided to build a single platform tailored to my needs. You are here. More to come.</p>
                 </div>
 
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Personal system design</h2>
-                    <p>I’m constantly designing systems to help me stay organized and focused on my goals.</p>
+                    <p>We have all created and lived by some sort of life management system. It's how we do things. It's we you survive. I am actively designing mine with intent and expectations of specific output.</p>
                 </div>
             </div>
         </main>
