@@ -21,6 +21,7 @@
     "@tailwindcss/postcss": "^4.0.17",
     "@tailwindcss/vite": "^4.0.17",
     "@vitejs/plugin-react": "^4.3.4",
+    "framer-motion": "^12.6.3",
     "gray-matter": "^4.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
