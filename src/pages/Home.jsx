@@ -7,7 +7,7 @@ export default function Home() {
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
-        <>
+        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
             <section className="space-y-6">
                 <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">{siteData.siteTagline}</h1>
                 <p>
@@ -49,6 +49,6 @@ export default function Home() {
                     <li><Link to="/contact" className={linkClasses}>Contact</Link> – Reach out to me</li>
                 </ul>
             </section>
-        </>
+        </main>
     );
 }

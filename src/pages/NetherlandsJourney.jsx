@@ -8,11 +8,11 @@ const journeyData = journey;
 export default function NetherlandsJourney() {
     const [expanded, setExpanded] = useState(null);
 
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
+    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline cursor-pointer";
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
-        <>
+        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">My Journey to the Netherlands</h1>
             <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
 
@@ -49,7 +49,7 @@ export default function NetherlandsJourney() {
                                             {entry.description.length > 220 ? (
                                                 <>
                                                     {entry.description.substring(0, 220)}...
-                                                    <button onClick={() => setExpanded(index)} className={`${linkClasses} cursor-pointer ml-2`}>Read more</button>
+                                                    <button onClick={() => setExpanded(index)} className={`${linkClasses} ml-2`}>Read more</button>
                                                 </>
                                             ) : (
                                                 entry.description
@@ -62,12 +62,13 @@ export default function NetherlandsJourney() {
                     </motion.div>
                 ))}
             </div>
+
             <div className="mt-12">
                 <h2 className="text-lg font-bold text-gray-900 dark:text-gray-200">Not Done Yet</h2>
                 <p className="text-md text-gray-600 dark:text-gray-400 mt-1">
                     This page will be updated as my journey progresses. If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
             </div>
-        </>
+        </main>
     );
 }
