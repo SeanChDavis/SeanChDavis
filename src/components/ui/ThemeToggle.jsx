@@ -1,14 +1,8 @@
 import { useEffect, useState } from "react";
-import {MdBrightnessMedium, MdOutlineWbIncandescent, MdOutlineWbSunny, MdOutlineWbTwilight} from "react-icons/md";
+import {MdBrightnessMedium} from "react-icons/md";
 
 export default function ThemeToggle() {
     const [theme, setTheme] = useState("system");
-
-    const themeToggleColor = theme === "dark"
-        ? "text-gray-600"
-        : theme === "light"
-            ? "text-yellow-500"
-            : "text-yellow-500"
 
     useEffect(() => {
         const stored = localStorage.getItem("theme");
@@ -28,9 +22,18 @@ export default function ThemeToggle() {
         setTheme(newTheme);
     };
 
+    const themeToggleColor = theme === "dark"
+        ? "text-gray-400"
+        : theme === "light"
+            ? "text-gray-500"
+            : "text-gray-400"
+
     return (
         <button onClick={toggleTheme}>
-            <MdBrightnessMedium title={"Toggle Dark Mode"} className={`text-lg mr-2 cursor-pointer ${themeToggleColor}`} />
+            <MdBrightnessMedium
+                title={"Toggle Dark Mode"}
+                className={`text-lg mr-2 cursor-pointer ${themeToggleColor}`}
+            />
         </button>
     );
 }

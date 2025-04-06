@@ -20,12 +20,11 @@ export default function TextSizeToggle() {
     };
 
     return (
-        <button
-            onClick={toggleTextSize}
-            className="text-sm text-gray-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition"
-            title="Toggle Text Size"
-        >
-            <MdFormatSize className={`text-lg text-gray-600 cursor-pointer mr-1`} />
+        <button onClick={toggleTextSize}>
+            <MdFormatSize
+                title={"Toggle Text Size"}
+                className={`text-lg text-gray-500 dark:text-gray-400 cursor-pointer`}
+            />
         </button>
     );
 }
