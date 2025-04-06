@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import journey from "../data/journeyData.json";
+import {FaCircle} from "react-icons/fa";
 
 const journeyData = journey;
 
@@ -26,7 +27,7 @@ export default function NetherlandsJourney() {
                         className="relative"
                     >
                         <div key={index} className="relative">
-                            <div className="absolute -left-2 top-0 w-4 h-4 bg-cyan-600 dark:bg-cyan-500 rounded-full border-2 border-white dark:border-gray-900"></div>
+                            <FaCircle className="absolute left-[-7.2px] top-[-1px] text-[14px] text-cyan-600" />
                             <div className="ml-7">
                                 <p className="text-sm text-gray-500 dark:text-gray-400 leading-4 mb-1.5">{entry.date}</p>
                                 <h2 className={headingClasses}>{entry.title}</h2>
@@ -35,7 +36,7 @@ export default function NetherlandsJourney() {
                                         <>
                                             {entry.description}
                                             {entry.links && entry.links.length > 0 && (
-                                                <div className="text-sm text-gray-700 dark:text-gray-300 font-semibold mt-2">
+                                                <div className="text-sm text-gray-700 dark:text-gray-300 font-semibold mt-2 mb-2">
                                                     {entry.links.map((link, linkIndex) => (
                                                         <span key={linkIndex}><a href={link.url} target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">{link.text}</a>{linkIndex < entry.links.length - 1 && " | "}</span>
                                                     ))}
