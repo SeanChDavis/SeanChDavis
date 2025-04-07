@@ -23,7 +23,7 @@ export default function TextSizeToggle() {
         <button onClick={toggleTextSize}>
             <MdFormatSize
                 title={"Toggle Text Size"}
-                className={`text-lg text-gray-500 dark:text-gray-400 cursor-pointer`}
+                className={`text-lg text-cyan-600 dark:text-violet-500 cursor-pointer`}
             />
         </button>
     );

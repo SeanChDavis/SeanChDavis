@@ -23,10 +23,10 @@ export default function ThemeToggle() {
     };
 
     const themeToggleColor = theme === "dark"
-        ? "text-gray-400"
+        ? "text-stone-600"
         : theme === "light"
-            ? "text-gray-500"
-            : "text-gray-400"
+            ? "text-yellow-500"
+            : "text-yellow-500"
 
     return (
         <button onClick={toggleTheme}>
