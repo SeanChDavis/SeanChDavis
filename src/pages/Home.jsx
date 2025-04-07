@@ -28,11 +28,11 @@ export default function Home() {
             <section className="space-y-2">
                 <h2 className={headingClasses}>Highlights</h2>
                 <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
-                    <li><span className="font-bold">2003</span> – Joined the U.S. Army (92A, Iraq x 3 + S. Korea)</li>
-                    <li><span className="font-bold">2012</span> – Transitioned to full-time web development</li>
-                    <li><span className="font-bold">2021</span> – Sold company (w/ partners) and reset professional direction</li>
-                    <li><span className="font-bold">2023</span> – Returned to university to complete Information Systems degree</li>
-                    <li><span className="font-bold">2024</span> – Began planning move to Rotterdam, Netherlands</li>
+                    <li>2003 – Joined the U.S. Army (92A, Iraq x 3 + S. Korea)</li>
+                    <li>2012 – Transitioned to full-time web development</li>
+                    <li>2021 – Sold company (w/ partners) and reset professional direction</li>
+                    <li>2023 – Returned to university to complete Information Systems degree</li>
+                    <li>2024 – Began planning move to Rotterdam, Netherlands</li>
                 </ul>
             </section>
 

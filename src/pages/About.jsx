@@ -8,15 +8,23 @@ const About = () => {
 
     return (
         <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
-            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">About Sean</h1>
+            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">A Bit More About Me</h1>
 
-            <p>Thanks for taking the time to read a little more. I won't keep you long.</p>
+            <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
             <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri - Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>
 
             <p>My time in service includes three combat tours to Iraq and a tour in South Korea. I was discharged honorably in early 2012, which is when I transitioned to web development.</p>
 
-            <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period - Austin, Texas; San Diego, California; and Chicago, Illinois. In late 2021 after selling a company with my partners at Sandhills Development LLC, I returned to St. Louis after nearly 19 years away.</p>
+            <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period.</p>
+
+            <ul className={"list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300"}>
+                <li>Austin, Texas: 2012 - 2015</li>
+                <li>San Diego, California: 2015 - 2019</li>
+                <li>Chicago, Illinois: 2019 - 2021</li>
+            </ul>
+
+            <p>In late 2021 after selling a company with my partners at Sandhills Development LLC, I returned to St. Louis after nearly 19 years away.</p>
 
             <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my career, I returned to school - right back into the University of Missouri system, actually - pursuing a Bachelor of Science in Information Systems and Technology. I will graduate from the University of Missouri - St. Louis (UMSL) in May 2025.</p>
 
