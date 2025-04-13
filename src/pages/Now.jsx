@@ -35,7 +35,7 @@ export default function Now() {
 
                 <div>
                     <h2 className={headingClasses}>Personal system design</h2>
-                    <p>We have all created and lived by some sort of life management system. It's how we do things. It's we you survive. I am actively designing mine with intent and expectations of specific output.</p>
+                    <p>We have all created and lived by some sort of life management system. It's how we do things. It's how we survive. I am intentionally designing mine with expectations of specific output.</p>
                 </div>
 
                 <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
