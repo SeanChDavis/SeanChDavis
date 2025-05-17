@@ -18,8 +18,8 @@ export default function Home() {
             <section className="space-y-2">
                 <h2 className={headingClasses}>Currently</h2>
                 <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
-                    <li>Finishing my BS in Information Systems & Technology at <abbr className="no-underline" title="University of Missouri - St. Louis">UMSL</abbr> (Spring 2025)</li>
-                    <li><Link to="/netherlands-journey" className={linkClasses}>Preparing for relocation to the Netherlands</Link> using the DAFT visa</li>
+                    <li>Graduated with a BS in Information Systems & Technology from <abbr className="cursor-help no-underline" title="University of Missouri-St. Louis">UMSL</abbr> (May 2025)</li>
+                    <li><Link to="/netherlands-journey" className={linkClasses}>Preparing for relocation to the Netherlands</Link> using the <abbr className="cursor-help no-underline" title="Dutch American Friendship Treaty">DAFT</abbr> visa</li>
                     <li>Centered around focus, ambition, and long-term strategy</li>
                     <li>Building this site as my all-encompassing digital platform</li>
                 </ul>

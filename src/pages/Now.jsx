@@ -14,13 +14,13 @@ export default function Now() {
 
             <div className="space-y-6">
                 <div>
-                    <h2 className={headingClasses}>BS in Information Systems & Technology</h2>
-                    <p>I am wrapping up a bachelor's degree at University of Missouri - St. Louis. I graduate May 2025. Until then, studies are my top priority. I do not intend to pursue a master's degree.</p>
+                    <h2 className={headingClasses}>BS in Information Systems & Technology — Completed</h2>
+                    <p>I recently completed a bachelor's degree at <abbr className="cursor-help no-underline" title="University of Missouri-St. Louis">UMSL</abbr>. No plans for graduate school — I'm focused on getting back to applying what I know.</p>
                 </div>
 
                 <div>
                     <h2 className={headingClasses}>Preparing for the Netherlands</h2>
-                    <p>My plan for moving to the Netherlands is in motion. I’m targeting a September 2025 <Link to="/netherlands-journey" className={linkClasses}>relocation to Rotterdam, NL</Link> using the DAFT visa.</p>
+                    <p>My plan for moving to the Netherlands is in motion. I’m targeting a September 2025 <Link to="/netherlands-journey" className={linkClasses}>relocation to Rotterdam, NL</Link> using the <abbr className="cursor-help no-underline" title="Dutch American Friendship Treaty">DAFT</abbr> visa.</p>
                 </div>
 
                 <div>
