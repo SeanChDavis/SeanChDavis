@@ -17,7 +17,7 @@ export default function Uses() {
                     <h2 className={headingClasses}>Development</h2>
                     <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
                         <li>Code Editor: <a href={"https://www.jetbrains.com/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">JetBrains IDEs</a>, VS Code (for quick edits)</li>
-                        <li>Stack: React + Vite, Angular, Tailwindcss, Firebase, Git</li>
+                        <li>Stack: React + Vite, Angular, Tailwind CSS, Firebase, Git</li>
                         <li>Browser: Chrome (DevTools), Firefox</li>
                         <li>Tools: GitHub, <a href="https://www.netlify.com/" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Netlify</a></li>
                         <li>Design: Affinity Designer + Photo</li>
