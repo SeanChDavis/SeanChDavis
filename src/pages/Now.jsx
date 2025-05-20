@@ -10,7 +10,7 @@ export default function Now() {
         <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">What I'm Doing Now</h1>
 
-            <p>This is a snapshot of where my focus is right now — last updated April 2025.</p>
+            <p>This is a snapshot of where my focus is right now — last updated May 2025.</p>
 
             <div className="space-y-6">
                 <div>
