@@ -12,7 +12,7 @@ const About = () => {
 
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
-            <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri - Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>
+            <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri-Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>
 
             <p>My time in service includes three combat tours to Iraq and a tour in South Korea. I was discharged honorably in early 2012, which is when I transitioned to web development.</p>
 
