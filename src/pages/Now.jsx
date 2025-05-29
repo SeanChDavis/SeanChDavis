@@ -14,7 +14,7 @@ export default function Now() {
 
             <div className="space-y-6">
                 <div>
-                    <h2 className={headingClasses}>BS in Information Systems & Technology — Completed</h2>
+                    <h2 className={headingClasses}>BS in Information Systems — Completed</h2>
                     <p>I recently completed a bachelor's degree at <abbr className="cursor-help no-underline" title="University of Missouri-St. Louis">UMSL</abbr>. No plans for graduate school — I'm focused on getting back to applying what I know.</p>
                 </div>
 

@@ -10,7 +10,7 @@ export default function Projects() {
         <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">Projects & Experiments</h1>
 
-            <p>This is a <em>selective</em> list of things I’ve built, helped grow, or explored — professionally and personally.</p>
+            <p>This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally.</p>
 
             <div className="space-y-6">
 

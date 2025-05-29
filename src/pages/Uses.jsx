@@ -28,9 +28,9 @@ export default function Uses() {
                     <h2 className={headingClasses}>Productivity</h2>
                     <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
                         <li>Notes & Planning: <a href="https://obsidian.md/" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Obsidian</a>, OneDrive, pen + paper</li>
-                        <li>Passwords: LastPass</li>
+                        <li>Passwords & Security: 1Password</li>
                         <li>Finances: MS Excel, manual tracking</li>
-                        <li>Calendar: Google Calendar</li>
+                        <li>Time-Management: Google Calendar</li>
                     </ul>
                 </section>
 
@@ -49,7 +49,7 @@ export default function Uses() {
                     <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
                         <li>Cloud: Obsidian, OneDrive</li>
                         <li>Email: Gmail, <a href={"https://formspree.io/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">Formspree</a></li>
-                        <li>Domains: NameCheap</li>
+                        <li>Domains & Hosting: NameCheap, Netlify</li>
                         <li>Planning: <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Wise</a>, EUR-based budgeting for <Link to="/netherlands-journey" className={linkClasses}>Netherlands move</Link></li>
                     </ul>
                 </section>
