@@ -86,5 +86,29 @@
           "url": "https://dutchamericanfriendship.com/how-to-get-a-daft-visa/"
       }
     ]
+  },
+  {
+    "date": "May 2025",
+    "title": "Purchased One-Way Flight for September 2025",
+    "type": "Logistics",
+    "description": "On May 30, 2025, I booked my flight to the Netherlands for September 22, 2025, the day my U.S. apartment lease ends. I'll turn in my keys and head straight to the airport. 🎉 After arriving in the Netherlands on the 23rd, I'll stay in a hotel for the remainder of September. On October 1st, I'll check into a short-term rental in Rotterdam, secured through HousingAnywhere. These types of rentals allow address registration (inschrijven, meaning you can inform the local municipality that this is your address), which is necessary for the DAFT visa application. With a registered address, I can secure a BSN (Dutch social security number, can be done in one day) and open a business account with a local Dutch bank (can also be done in one day). I'll then register my business as a sole proprietorship (ZZP'er, a freelancer) with the Dutch Chamber of Commerce (Kamer van Koophandel). With a registered address, BSN, and €4,500 deposited into the business account, I can officially apply for the DAFT visa. Approval is nearly guaranteed. Once approved, I live in the Netherlands. That's it. Done.",
+    "links": [
+      {
+        "text": "HousingAnywhere short-term rentals",
+        "url": "https://housinganywhere.com/s/Rotterdam--Netherlands?endDate=2025-10-31&flexDays=14&registration=possible&startDate=2025-10-01"
+      },
+      {
+        "text": "ZZP'er (Freelancer)",
+        "url": "https://business.gov.nl/starting-your-business/starting-as-a-self-employed-professional/get-started-as-a-freelancer-or-zzper/"
+      },
+      {
+        "text": "BSN (Dutch SSN)",
+        "url": "https://www.government.nl/topics/personal-data/citizen-service-number-bsn"
+      },
+      {
+        "text": "DAFT visa",
+        "url": "https://www.cardon.nl/blog/the-dutch-daft-visa-for-american-immigrants-in-5-steps"
+      }
+    ]
   }
 ]
