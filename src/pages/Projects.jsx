@@ -27,7 +27,7 @@ export default function Projects() {
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Loopdash <small className={"text-gray-400"}>(2022 - Present)</small></h2>
                     <p>
-                        I've worked with <a href="https://loopdash.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Loopdash</a> on multiple client projects, helping build high-quality websites tailored to organizational needs. Sites I've built from start to hand-off are <a href="https://forwardtogetherwi.org/" target="_blank" rel="noopener noreferrer" className={linkClasses}>Forward Together WI</a>, <a href="https://crimlawny.com/" target="_blank" rel="noopener noreferrer" className={linkClasses}>The Law Offices of Scott J. Limmer</a>, and several more.
+                        I've worked with <a href="https://loopdash.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Loopdash</a> on multiple client projects, helping build high-quality websites tailored to organizational needs. Sites I've built from start to hand-off are <a href="https://drummajorsforchange.org/" target="_blank" rel="noopener noreferrer" className={linkClasses}>Drum Majors for Change</a>, <a href="https://crimlawny.com/" target="_blank" rel="noopener noreferrer" className={linkClasses}>The Law Offices of Scott J. Limmer</a>, <a href="https://forwardtogetherwi.org/" target="_blank" rel="noopener noreferrer" className={linkClasses}>Forward Together WI</a> and several more.
                     </p>
                 </section>
 
