@@ -18,7 +18,7 @@ const MainLayout = () => {
                         </div>
                     </div>
                 </div>
-                <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-14 md:py-12 xl:pt-16 space-y-6">
+                <main className="max-w-3xl mx-auto px-4 md:px-8 py-14 md:py-12 lg:pt-16 space-y-6">
                     <Outlet />
                 </main>
             </div>

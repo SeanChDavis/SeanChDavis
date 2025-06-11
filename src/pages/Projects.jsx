@@ -59,7 +59,7 @@ export default function Projects() {
                     </ul>
                 </section>
 
-                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
                     <p className="text-md text-gray-700 dark:text-gray-400">
                         The fun never ends. If you have a project in mind or would like to collaborate, <Link to="/contact" className={linkClasses}>reach out to me</Link>. I’m open to discussing opportunities and partnerships.
                     </p>

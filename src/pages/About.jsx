@@ -39,7 +39,7 @@ const About = () => {
                 {siteData.siteTagline}
             </p>
 
-            <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+            <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
                 <p className="text-md text-gray-700 dark:text-gray-400">
                     Curious what I'm focused on right now? <Link to="/now" className={linkClasses}>Check out the Now page.</Link>
                 </p>

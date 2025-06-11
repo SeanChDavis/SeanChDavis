@@ -38,7 +38,7 @@ export default function Now() {
                     <p>We have all created and lived by some sort of life management system. It's how we do things. It's how we survive. I am intentionally designing mine with expectations of specific output.</p>
                 </div>
 
-                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
                     <p className="text-md text-gray-700 dark:text-gray-400">
                         I use a number of tools and resources to manage and keep track of my goals and projects. If you're curious about my setup <Link to="/uses" className={linkClasses}>check out the Uses page</Link>.
                     </p>

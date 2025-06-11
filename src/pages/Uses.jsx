@@ -54,9 +54,9 @@ export default function Uses() {
                     </ul>
                 </section>
 
-                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
                     <p className="text-md text-gray-700 dark:text-gray-400">
-                        This list is updated as my setup evolves. Sometimes I like to role my own, but I'm not afraid to use a quality solution. To see my output when using these tools, <Link to="/projects" className={linkClasses}>check out the Projects page</Link>.
+                        This list is updated as my setup evolves. Sometimes I roll my own, but I'm not afraid to use a quality solution. To see my output when using these tools, <Link to="/projects" className={linkClasses}>check out the Projects page</Link>.
                     </p>
                 </div>
             </div>
