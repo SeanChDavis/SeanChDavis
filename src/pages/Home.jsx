@@ -8,13 +8,13 @@ export default function Home() {
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
-        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
+        <>
             <section className="space-y-6">
                 <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">{siteData.siteTagline}</h1>
-                <p>
+                <p className={"md:mb-1.5"}>
                     I’m Sean — a former U.S. Army service member turned web developer and information systems professional. Since 2008, I’ve been building websites and navigating various systems — military, tech, academic, and personal. I enjoy mapping things out and operating within strategically set boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and explore the intersections of technology, systems, and life.
                 </p>
-                <ul className="mt-2 space-x-3 flex">
+                <ul className="mt-2 space-x-3 flex flex-wrap">
                     <li className={'mr-2'}>Connect with me:</li>
                     <li><a href="https://www.linkedin.com/in/SeanChDavis/" target="_blank" rel="noopener noreferrer" className={linkClasses}>LinkedIn</a></li>
                     <li><a href="https://github.com/SeanChDavis/" target="_blank" rel="noopener noreferrer" className={linkClasses}>GitHub</a></li>
@@ -55,6 +55,6 @@ export default function Home() {
                     <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>
                 </ul>
             </section>
-        </main>
+        </>
     );
 }

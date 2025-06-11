@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { MdFormatSize } from "react-icons/md";
+import {useEffect, useState} from "react";
+import {MdFormatSize} from "react-icons/md";
 
 export default function TextSizeToggle() {
     const [size, setSize] = useState("base");

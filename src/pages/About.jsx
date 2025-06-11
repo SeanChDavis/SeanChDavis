@@ -7,7 +7,7 @@ const About = () => {
     const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
 
     return (
-        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
+        <>
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">A Bit More About Me</h1>
 
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
@@ -44,7 +44,7 @@ const About = () => {
                     Curious what I'm focused on right now? <Link to="/now" className={linkClasses}>Check out the Now page.</Link>
                 </p>
             </div>
-        </main>
+        </>
     );
 }
 

@@ -1,16 +1,15 @@
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import React from "react";
-import { MdEmail } from "react-icons/md";
+import {MdEmail} from "react-icons/md";
 
 export default function Navigation() {
 
     const navigationLinks = [
-        { to: "/", label: "Home" },
-        { to: "/about", label: "About" },
-        { to: "/now", label: "Now" },
-        { to: "/uses", label: "Uses" },
-        { to: "/projects", label: "Projects" },
-        { to: "/contact", label: <MdEmail className="inline-block text-lg align-middle ms-2" title="Contact Sean" /> }
+        {to: "/about", label: "About"},
+        {to: "/now", label: "Now"},
+        {to: "/uses", label: "Uses"},
+        {to: "/projects", label: "Projects"},
+        {to: "/contact", label: <MdEmail className="inline-block text-lg align-middle" title="Contact Sean"/>}
     ];
 
     return (
@@ -19,9 +18,9 @@ export default function Navigation() {
                 <NavLink
                     key={index}
                     to={link.to}
-                    className={({ isActive }) => isActive
-                        ? "underline text-gray-800 dark:text-gray-200"
-                        : "transition duration-300 ease-in-out text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"}
+                    className={({isActive}) => isActive
+                        ? "no-underline text-cyan-500"
+                        : "transition duration-300 ease-in-out text-white hover:text-gray-400"}
                 >
                     {link.label}
                 </NavLink>

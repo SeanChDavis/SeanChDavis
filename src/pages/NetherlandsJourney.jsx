@@ -12,7 +12,7 @@ export default function NetherlandsJourney() {
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
-        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
+        <>
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">My Journey to the Netherlands</h1>
             <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
 
@@ -69,6 +69,6 @@ export default function NetherlandsJourney() {
                     This page will be updated as my journey progresses. If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
             </div>
-        </main>
+        </>
     );
 }

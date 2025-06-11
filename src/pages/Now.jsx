@@ -7,7 +7,7 @@ export default function Now() {
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
-        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
+        <>
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">What I'm Doing Now</h1>
 
             <p>This is a snapshot of where my focus is right now — last updated May 2025.</p>
@@ -44,6 +44,6 @@ export default function Now() {
                     </p>
                 </div>
             </div>
-        </main>
+        </>
     );
 }

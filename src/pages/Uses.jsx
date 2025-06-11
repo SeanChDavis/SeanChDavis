@@ -7,7 +7,7 @@ export default function Uses() {
     const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
     
     return (
-        <main className="md:w-3xl max-w-3xl mx-auto px-4 md:px-8 py-12 space-y-6">
+        <>
             <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">What I Use</h1>
 
             <p>This is a living list of tools I use regularly for development, productivity, and life in general.</p>
@@ -60,6 +60,6 @@ export default function Uses() {
                     </p>
                 </div>
             </div>
-        </main>
+        </>
     );
 }
