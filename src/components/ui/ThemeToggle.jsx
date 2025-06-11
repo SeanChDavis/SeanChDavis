@@ -32,7 +32,7 @@ export default function ThemeToggle() {
         <button onClick={toggleTheme}>
             <MdBrightnessMedium
                 title={"Toggle Dark Mode"}
-                className={`text-lg mr-2 cursor-pointer ${themeToggleColor}`}
+                className={`text-lg cursor-pointer ${themeToggleColor}`}
             />
         </button>
     );
