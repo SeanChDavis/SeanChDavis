@@ -1,17 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-export default function Uses() {
-    
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
-    const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
+export default function Uses({ linkClasses, headingClasses, mainHeadingClasses }) {
     
     return (
         <>
-            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">What I Use</h1>
-
+            <h1 className={mainHeadingClasses}>What I Use</h1>
             <p>This is a living list of tools I use regularly for development, productivity, and life in general.</p>
-
             <div className="space-y-6">
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Development</h2>
@@ -55,7 +50,7 @@ export default function Uses() {
                 </section>
 
                 <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                    <p className="text-md text-gray-700 dark:text-gray-400">
+                    <p className="text-md">
                         This list is updated as my setup evolves. Sometimes I roll my own, but I'm not afraid to use a quality solution. To see my output when using these tools, <Link to="/projects" className={linkClasses}>check out the Projects page</Link>.
                     </p>
                 </div>

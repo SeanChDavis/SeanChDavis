@@ -5,15 +5,12 @@ import {FaCircle} from "react-icons/fa";
 
 const journeyData = journey;
 
-export default function NetherlandsJourney() {
+export default function NetherlandsJourney({ linkClasses, headingClasses, mainHeadingClasses }) {
     const [expanded, setExpanded] = useState(null);
-
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline cursor-pointer";
-    const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
 
     return (
         <>
-            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">My Journey to the Netherlands</h1>
+            <h1 className={mainHeadingClasses}>My Journey to the Netherlands</h1>
             <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
 
             <div className="space-y-10 border-l border-gray-300 dark:border-gray-700 ml-2">
@@ -27,11 +24,11 @@ export default function NetherlandsJourney() {
                         className="relative"
                     >
                         <div key={index} className="relative">
-                            <FaCircle className="absolute left-[-7.2px] top-[-1px] text-[14px] text-cyan-600" />
+                            <FaCircle className="absolute left-[-7.2px] top-[-1px] text-[14px] text-[#0080a3]" />
                             <div className="ml-7">
-                                <p className="text-sm text-gray-500 dark:text-gray-400 leading-4 mb-1.5">{entry.date}</p>
+                                <p className="text-sm leading-4 mb-1.5">{entry.date}</p>
                                 <h2 className={headingClasses}>{entry.title}</h2>
-                                <p className="text-md text-gray-600 dark:text-gray-400 mt-1">
+                                <p className="text-md mt-1">
                                     {expanded === index ? (
                                         <>
                                             {entry.description}
@@ -65,7 +62,7 @@ export default function NetherlandsJourney() {
 
             <div className="mt-12">
                 <h2 className="text-lg font-bold text-gray-900 dark:text-gray-200">Not Done Yet</h2>
-                <p className="text-md text-gray-600 dark:text-gray-400 mt-1">
+                <p className="text-md mt-1">
                     This page will be updated as my journey progresses. If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
             </div>

@@ -2,16 +2,13 @@ import {Link} from "react-router-dom";
 import siteData from "../data/siteData.json";
 import React from "react";
 
-export default function Home() {
-
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
-    const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
+export default function Home( { linkClasses, headingClasses, mainHeadingClasses }) {
 
     return (
         <>
             <section className="space-y-6">
-                <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">{siteData.siteTagline}</h1>
-                <p className={"md:mb-1.5"}>
+                <h1 className={mainHeadingClasses}>{siteData.siteTagline}</h1>
+                <p className="md:mb-1.5">
                     I’m Sean — a former U.S. Army service member turned web developer and information systems professional. Since 2008, I’ve been building websites and navigating various systems — military, tech, academic, and personal. I enjoy mapping things out and operating within strategically set boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and explore the intersections of technology, systems, and life.
                 </p>
                 <ul className="mt-2 space-x-3 flex flex-wrap">

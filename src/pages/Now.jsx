@@ -1,17 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-export default function Now() {
-
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
-    const headingClasses = "text-lg font-bold text-gray-900 dark:text-gray-200";
+export default function Now({ linkClasses, headingClasses, mainHeadingClasses }) {
 
     return (
         <>
-            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">What I'm Doing Now</h1>
-
+            <h1 className={mainHeadingClasses}>What I'm Doing Now</h1>
             <p>This is a snapshot of where my focus is right now — last updated May 2025.</p>
-
             <div className="space-y-6">
                 <div>
                     <h2 className={headingClasses}>BS in Information Systems — Completed</h2>
@@ -39,7 +34,7 @@ export default function Now() {
                 </div>
 
                 <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                    <p className="text-md text-gray-700 dark:text-gray-400">
+                    <p className="text-md">
                         I use a number of tools and resources to manage and keep track of my goals and projects. If you're curious about my setup <Link to="/uses" className={linkClasses}>check out the Uses page</Link>.
                     </p>
                 </div>

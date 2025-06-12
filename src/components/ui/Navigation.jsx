@@ -19,8 +19,8 @@ export default function Navigation() {
                     key={index}
                     to={link.to}
                     className={({isActive}) => isActive
-                        ? "no-underline text-cyan-500"
-                        : "transition duration-300 ease-in-out text-white hover:text-gray-400"}
+                        ? "no-underline text-[#9ca4b1]"
+                        : "transition duration-300 ease-in-out text-white hover:text-[#9ca4b1]"}
                 >
                     {link.label}
                 </NavLink>

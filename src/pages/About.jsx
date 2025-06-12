@@ -2,14 +2,11 @@ import { Link } from "react-router-dom";
 import React from "react";
 import siteData from "../data/siteData.json";
 
-const About = () => {
-
-    const linkClasses = "text-cyan-600 dark:text-cyan-500 font-semibold underline hover:no-underline";
+export default function About( { linkClasses, mainHeadingClasses } ) {
 
     return (
         <>
-            <h1 className="text-2xl font-extrabold text-gray-900 dark:text-gray-200">A Bit More About Me</h1>
-
+            <h1 className={mainHeadingClasses}>A Bit More About Me</h1>
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
             <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri-Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>
@@ -34,18 +31,16 @@ const About = () => {
 
             <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-28 h-28 rounded-full mt-8" />
 
-            <p className="text-md text-gray-700 dark:text-gray-400 mt-4">
+            <p className="text-md mt-4">
                 <strong className="dark:text-gray-200">{siteData.siteNameShort}</strong>, <br />
                 {siteData.siteTagline}
             </p>
 
             <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                <p className="text-md text-gray-700 dark:text-gray-400">
+                <p className="text-md">
                     Curious what I'm focused on right now? <Link to="/now" className={linkClasses}>Check out the Now page.</Link>
                 </p>
             </div>
         </>
     );
 }
-
-export default About;

@@ -9,19 +9,42 @@ import Uses from "./pages/Uses.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import NetherlandsJourney from "./pages/NetherlandsJourney.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
+
+    const linkClasses = "text-[#0080a3] dark:text-cyan-500 font-semibold underline hover:no-underline";
+    const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
+    const headingClasses = `text-lg font-bold ${baseHeadingClasses}`;
+    const mainHeadingClasses = `text-2xl font-extrabold ${baseHeadingClasses}`;
+
     return (
         <Router>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<MainLayout />}>
-                    <Route index element={<Home />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="now" element={<Now />} />
-                    <Route path="uses" element={<Uses />} />
-                    <Route path="projects" element={<Projects />} />
-                    <Route path="contact" element={<Contact />} />
-                    <Route path="netherlands-journey" element={<NetherlandsJourney />} />
+                    {[
+                        { path: "", Component: Home },
+                        { path: "about", Component: About },
+                        { path: "now", Component: Now },
+                        { path: "uses", Component: Uses },
+                        { path: "projects", Component: Projects },
+                        { path: "contact", Component: Contact },
+                        { path: "netherlands-journey", Component: NetherlandsJourney },
+                    ].map(({ path, Component }) => (
+                        <Route
+                            key={path || "home"}
+                            path={path}
+                            element={
+                                <Component
+                                    linkClasses={linkClasses}
+                                    headingClasses={headingClasses}
+                                    mainHeadingClasses={mainHeadingClasses}
+                                />
+                            }
+                            {...(path === "" ? { index: true } : {})}
+                        />
+                    ))}
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Route>
             </Routes>

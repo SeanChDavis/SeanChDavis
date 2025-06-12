@@ -8,7 +8,7 @@ import TextSizeToggle from "../ui/TextSizeToggle";
 const MainLayout = () => {
 
     return (
-        <div className="flex flex-col min-h-screen dark:bg-gray-900 text-gray-700 dark:text-gray-400">
+        <div className="flex flex-col min-h-screen dark:bg-gray-900 text-gray-700 dark:text-[#9ca4b1]">
             <Header />
             <div className={"flex-grow relative"}>
                 <div className={"w-full absolute text-right right-[16px] top-[16px]"}>
