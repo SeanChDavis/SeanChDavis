@@ -3,6 +3,7 @@ import {MdBrightnessMedium} from "react-icons/md";
 
 export default function ThemeToggle() {
     const [theme, setTheme] = useState("system");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
     useEffect(() => {
         const stored = localStorage.getItem("theme");
@@ -10,7 +11,6 @@ export default function ThemeToggle() {
             setTheme(stored);
             document.documentElement.classList.toggle("dark", stored === "dark");
         } else {
-            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
             document.documentElement.classList.toggle("dark", prefersDark);
         }
     }, []);
@@ -22,11 +22,14 @@ export default function ThemeToggle() {
         setTheme(newTheme);
     };
 
-    const themeToggleColor = theme === "dark"
-        ? "text-stone-600"
-        : theme === "light"
-            ? "text-yellow-500"
-            : "text-yellow-500"
+    const themeToggleColor =
+        theme === "dark"
+            ? "text-stone-600"
+            : theme === "light"
+                ? "text-yellow-500"
+                : prefersDark
+                    ? "text-stone-600"
+                    : "text-yellow-500";
 
     return (
         <button onClick={toggleTheme}>
