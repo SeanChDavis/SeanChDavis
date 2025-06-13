@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import siteData from "../data/siteData.json";
 
-export default function About( { linkClasses, mainHeadingClasses } ) {
+export default function About({ linkClasses, mainHeadingClasses, listClasses }) {
 
     return (
         <>
@@ -15,7 +15,7 @@ export default function About( { linkClasses, mainHeadingClasses } ) {
 
             <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period.</p>
 
-            <ul className={"list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300"}>
+            <ul className={listClasses}>
                 <li>Austin, Texas: 2012 - 2015</li>
                 <li>San Diego, California: 2015 - 2019</li>
                 <li>Chicago, Illinois: 2019 - 2021</li>

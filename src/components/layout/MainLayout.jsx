@@ -2,23 +2,16 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import React from "react";
 import {Outlet} from "react-router-dom";
-import ThemeToggle from "../ui/ThemeToggle.jsx";
-import TextSizeToggle from "../ui/TextSizeToggle";
+import SettingsPanel from "../ui/SettingsPanel.jsx";
 
-const MainLayout = () => {
+export default function MainLayout() {
 
     return (
-        <div className="flex flex-col min-h-screen dark:bg-gray-900 text-gray-700 dark:text-[#9ca4b1]">
+        <div className="flex flex-col min-h-screen">
             <Header />
             <div className={"flex-grow relative"}>
-                <div className={"w-full absolute text-right right-[16px] top-[16px]"}>
-                    <div className={"inline-block bg-gray-100 dark:bg-gray-950 rounded-full py-2 px-3"}>
-                        <div className={"flex gap-x-1.5 items-center justify-center"}>
-                            <ThemeToggle /><TextSizeToggle />
-                        </div>
-                    </div>
-                </div>
                 <main className="max-w-3xl mx-auto px-4 md:px-8 py-14 md:py-12 lg:pt-16 space-y-6">
+                    <SettingsPanel />
                     <Outlet />
                 </main>
             </div>
@@ -26,5 +19,3 @@ const MainLayout = () => {
         </div>
     );
 }
-
-export default MainLayout;

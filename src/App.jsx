@@ -13,10 +13,11 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
 
-    const linkClasses = "text-[#0080a3] dark:text-cyan-500 font-semibold underline hover:no-underline cursor-pointer";
+    const linkClasses = "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer";
     const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
-    const headingClasses = `text-lg font-bold ${baseHeadingClasses}`;
-    const mainHeadingClasses = `text-2xl font-extrabold ${baseHeadingClasses}`;
+    const headingClasses = `text-[17px] md:text-lg font-bold ${baseHeadingClasses}`;
+    const mainHeadingClasses = `text-xl md:text-2xl font-extrabold ${baseHeadingClasses} mb-5`;
+    const listClasses = "list-disc pl-4 md:pl-0 md:list-inside space-y-2 md:space-y-0";
 
     return (
         <Router>
@@ -40,6 +41,7 @@ export default function App() {
                                     linkClasses={linkClasses}
                                     headingClasses={headingClasses}
                                     mainHeadingClasses={mainHeadingClasses}
+                                    listClasses={listClasses}
                                 />
                             }
                             {...(path === "" ? { index: true } : {})}

@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import siteData from "../data/siteData.json";
 import React from "react";
 
-export default function Home( { linkClasses, headingClasses, mainHeadingClasses }) {
+export default function Home({ linkClasses, headingClasses, mainHeadingClasses, listClasses }) {
 
     return (
         <>
@@ -21,7 +21,7 @@ export default function Home( { linkClasses, headingClasses, mainHeadingClasses 
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Currently</h2>
-                <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
+                <ul className={listClasses}>
                     <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the <abbr className="cursor-help no-underline" title="Dutch American Friendship Treaty">DAFT</abbr> visa</li>
                     <li>Focusing on long-term strategy, Dutch integration, sustained freedom</li>
                     <li>Building this site as an all-encompassing digital platform</li>
@@ -30,7 +30,7 @@ export default function Home( { linkClasses, headingClasses, mainHeadingClasses 
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Highlights</h2>
-                <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
+                <ul className={listClasses}>
                     <li>2003 – Joined U.S. Army (<a href="https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92a-automated-logistical-specialist" className={'underline hover:no-underline'} target={"_blank"} rel="noopener noreferrer">92A</a>, Iraq [2003-04, 2005-06, 2009-10] + S. Korea [2007-08])</li>
                     <li>2012 – Honorable discharge from Army, transitioned to full-time web development</li>
                     <li>2021 – Sold company (w/ partners) and reset professional direction</li>
@@ -46,7 +46,7 @@ export default function Home( { linkClasses, headingClasses, mainHeadingClasses 
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Explore More</h2>
-                <ul className="list-disc list-inside space-y-2 md:space-y-0 md:marker:text-gray-300">
+                <ul className={listClasses}>
                     <li><Link to="/now" className={linkClasses}>Now</Link> – What I’m focused on right now</li>
                     <li><Link to="/uses" className={linkClasses}>Uses</Link> – My tools, stack, and workflow</li>
                     <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>
