@@ -12,7 +12,6 @@ import NetherlandsJourney from "./pages/NetherlandsJourney.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
-
     const linkClasses = "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer";
     const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
     const headingClasses = `text-[17px] md:text-lg font-bold ${baseHeadingClasses}`;

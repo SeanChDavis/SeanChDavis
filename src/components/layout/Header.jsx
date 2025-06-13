@@ -5,7 +5,7 @@ import Navigation from "../ui/Navigation.jsx";
 import {MdHome} from "react-icons/md";
 import {useLocation} from "react-router-dom";
 
-const Header = () => {
+export default function Header() {
     const location = useLocation();
 
     return (
@@ -16,9 +16,7 @@ const Header = () => {
                     <Link to="/" className="text-gray-200 flex items-center gap-x-1.5 group">
                         <span className="inline-block">{siteData.siteName}</span>
                         {location.pathname !== "/" && (
-                            <span
-                                className="hidden md:inline-block text-gray-600 group-hover:text-white transition duration-200"
-                            >
+                            <span className="hidden md:inline-block text-gray-600 group-hover:text-white transition duration-200">
                                 <MdHome/>
                             </span>
                         )}
@@ -29,5 +27,3 @@ const Header = () => {
         </header>
     );
 }
-
-export default Header;

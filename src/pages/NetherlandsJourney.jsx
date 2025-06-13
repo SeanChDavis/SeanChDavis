@@ -61,7 +61,7 @@ export default function NetherlandsJourney({ linkClasses, headingClasses, mainHe
             </div>
 
             <div className="mt-12">
-                <h2 className="text-lg font-bold text-gray-900 dark:text-gray-200">Not Done Yet</h2>
+                <h2 className={headingClasses}>Not Done Yet</h2>
                 <p className="text-md mt-1">
                     This page will be updated as my journey progresses. If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
