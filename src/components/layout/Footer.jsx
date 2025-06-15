@@ -12,7 +12,7 @@ export default function Footer() {
             >
                 {siteData.siteNameShort}
             </Link>
-            <span> &middot; {siteData.footerText}</span>
+            <span> &middot; {siteData.siteTagline}</span>
         </footer>
     );
 }
