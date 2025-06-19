@@ -4,7 +4,6 @@ import './styles.css';
 import MainLayout from "./components/layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Now from "./pages/Now.jsx";
 import Uses from "./pages/Uses.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -26,7 +25,6 @@ export default function App() {
                     {[
                         { path: "", Component: Home },
                         { path: "about", Component: About },
-                        { path: "now", Component: Now },
                         { path: "uses", Component: Uses },
                         { path: "projects", Component: Projects },
                         { path: "contact", Component: Contact },

@@ -6,7 +6,9 @@ export default function Projects({ linkClasses, headingClasses, mainHeadingClass
     return (
         <>
             <h1 className={mainHeadingClasses}>Projects & Experiments</h1>
-            <p>This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally.</p>
+            <p>
+                This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally. The technologies I use are JavaScript, React, Angular, Tailwind CSS, <a href="https://profiles.wordpress.org/sdavis2702/" target="_blank" rel="noopener noreferrer" className={linkClasses}>WordPress</a>, and more.
+            </p>
             <div className="space-y-6">
 
                 <section className="space-y-2">

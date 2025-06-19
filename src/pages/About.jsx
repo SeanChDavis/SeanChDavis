@@ -35,12 +35,6 @@ export default function About({ linkClasses, mainHeadingClasses, listClasses }) 
                 <strong className="dark:text-gray-200">{siteData.siteNameShort}</strong>, <br />
                 {siteData.siteTagline}
             </p>
-
-            <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                <p className="text-md">
-                    Curious what I'm focused on right now? <Link to="/now" className={linkClasses}>Check out the Now page.</Link>
-                </p>
-            </div>
         </>
     );
 }
