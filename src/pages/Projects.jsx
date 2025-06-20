@@ -1,11 +1,11 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function Projects({ linkClasses, headingClasses, mainHeadingClasses, listClasses }) {
+export default function Projects({ linkClasses, headingClasses, listClasses }) {
 
     return (
         <>
-            <h1 className={mainHeadingClasses}>Projects & Experiments</h1>
+            <PageHeadline text="Projects & Experiments" />
             <p>
                 This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally. The technologies I use are JavaScript, React, Angular, Tailwind CSS, <a href="https://profiles.wordpress.org/sdavis2702/" target="_blank" rel="noopener noreferrer" className={linkClasses}>WordPress</a>, and more.
             </p>
@@ -55,12 +55,6 @@ export default function Projects({ linkClasses, headingClasses, mainHeadingClass
                         <li>Top One Code: My freelance identity for a short time, phased out to simplify and consolidate.</li>
                     </ul>
                 </section>
-
-                <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                    <p className="text-md">
-                        The fun never ends. If you have a project in mind or would like to collaborate, <Link to="/contact" className={linkClasses}>reach out to me</Link>. I’m open to discussing opportunities and partnerships.
-                    </p>
-                </div>
             </div>
         </>
     );

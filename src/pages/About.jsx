@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import siteData from "../data/siteData.json";
+import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function About({ linkClasses, mainHeadingClasses, listClasses }) {
+export default function About({ linkClasses, listClasses }) {
 
     return (
         <>
-            <h1 className={mainHeadingClasses}>A Bit More About Me</h1>
+            <PageHeadline text="A Bit More About Me" />
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
             <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri-Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>

@@ -13,7 +13,6 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 export default function App() {
     const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
     const headingClasses = `text-[17px] md:text-lg font-bold ${baseHeadingClasses}`;
-    const mainHeadingClasses = `text-xl md:text-2xl font-extrabold ${baseHeadingClasses} mb-5`;
     const linkClasses = "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer";
     const listClasses = "list-disc pl-4 md:pl-0 md:list-inside space-y-2 md:space-y-0";
 
@@ -37,7 +36,6 @@ export default function App() {
                                 <Component
                                     linkClasses={linkClasses}
                                     headingClasses={headingClasses}
-                                    mainHeadingClasses={mainHeadingClasses}
                                     listClasses={listClasses}
                                 />
                             }

@@ -44,7 +44,7 @@ export default function ContactForm() {
                 <textarea name="message" rows="4" minLength="10" required className={inputClasses}></textarea>
             </div>
 
-            <button type="submit" disabled={status === 'loading'} className="transition duration-200 ease-in-out font-bold px-4 py-2 border-0 cursor-pointer bg-cyan-700 text-white rounded hover:bg-cyan-900">
+            <button type="submit" disabled={status === 'loading'} className="transition duration-200 ease-in-out font-bold px-4 py-2 border-0 cursor-pointer bg-cyan-700 text-white rounded-full hover:bg-cyan-900">
                 {status === 'loading' ? 'Sending...' : 'Send Message'}
             </button>
 

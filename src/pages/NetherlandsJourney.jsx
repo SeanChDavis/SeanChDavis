@@ -1,16 +1,17 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, {useState} from "react";
+import {motion} from "framer-motion";
 import journey from "../data/journeyData.json";
 import {FaCircle} from "react-icons/fa";
+import PageHeadline from "../components/ui/pageHeadline.jsx";
 
 const journeyData = journey;
 
-export default function NetherlandsJourney({ linkClasses, headingClasses, mainHeadingClasses }) {
+export default function NetherlandsJourney({ linkClasses, headingClasses }) {
     const [expanded, setExpanded] = useState(null);
 
     return (
         <>
-            <h1 className={mainHeadingClasses}>My Journey to the Netherlands</h1>
+            <PageHeadline text="My Journey to the Netherlands" />
             <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
 
             <div className="space-y-10 border-l border-gray-300 dark:border-gray-700 ml-2">
@@ -28,16 +29,16 @@ export default function NetherlandsJourney({ linkClasses, headingClasses, mainHe
                             <div className="ml-7">
                                 <p className="text-sm leading-4 mb-1.5">{entry.date}</p>
                                 <h2 className={headingClasses}>{entry.title}</h2>
-                                <p className="text-md mt-1">
+                                <div className="text-md mt-1">
                                     {expanded === index ? (
                                         <>
                                             {entry.description}
                                             {entry.links && entry.links.length > 0 && (
-                                                <div className="text-sm text-gray-700 dark:text-gray-300 font-semibold mt-2 mb-2">
+                                                <p className="text-sm text-gray-700 dark:text-gray-300 font-semibold mt-2 mb-2">
                                                     {entry.links.map((link, linkIndex) => (
                                                         <span key={linkIndex}><a href={link.url} target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">{link.text}</a>{linkIndex < entry.links.length - 1 && " | "}</span>
                                                     ))}
-                                                </div>
+                                                </p>
                                             )}
                                             <button onClick={() => setExpanded(null)} className={`${linkClasses} ${!entry.links || entry.links.length === 0 ? 'ml-2' : ''}`}>Show less</button>
                                         </>
@@ -53,7 +54,7 @@ export default function NetherlandsJourney({ linkClasses, headingClasses, mainHe
                                             )}
                                         </>
                                     )}
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </motion.div>

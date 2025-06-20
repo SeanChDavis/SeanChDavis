@@ -1,22 +1,22 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function Uses({ linkClasses, headingClasses, mainHeadingClasses, listClasses }) {
+export default function Uses({ linkClasses, headingClasses, listClasses }) {
     
     return (
         <>
-            <h1 className={mainHeadingClasses}>What I Use</h1>
+            <PageHeadline text="What I Use" />
             <p>This is a living list of tools I use regularly for development, productivity, and life in general.</p>
             <div className="space-y-6">
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Development</h2>
                     <ul className={listClasses}>
                         <li>Code Editor: <a href={"https://www.jetbrains.com/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">JetBrains IDEs</a>, VS Code (for quick edits)</li>
-                        <li>Stack: React + Vite, Angular, Tailwind CSS, Firebase, Git</li>
+                        <li>Stack: React, NextJS, Angular, Tailwind CSS, Firebase, Git</li>
                         <li>Browser: Chrome (DevTools), Firefox</li>
                         <li>Tools: GitHub, <a href="https://www.netlify.com/" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Netlify</a></li>
                         <li>Design: Affinity Designer + Photo</li>
-                        <li>(Currently experimenting with Next.js)</li>
                     </ul>
                 </section>
 
@@ -50,12 +50,6 @@ export default function Uses({ linkClasses, headingClasses, mainHeadingClasses, 
                         <li>Planning: <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Wise</a>, EUR-based budgeting for <Link to="/netherlands-journey" className={linkClasses}>Netherlands move</Link></li>
                     </ul>
                 </section>
-
-                <div className="mt-8 mb-4 p-6 bg-gray-100 dark:bg-gray-950 rounded-xl">
-                    <p className="text-md">
-                        This list is updated as my setup evolves. Sometimes I roll my own, but I'm not afraid to use a quality solution. To see my output when using these tools, <Link to="/projects" className={linkClasses}>check out the Projects page</Link>.
-                    </p>
-                </div>
             </div>
         </>
     );
