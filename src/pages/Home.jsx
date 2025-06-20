@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Home({linkClasses, headingClasses, mainHeadingClasses, listClasses}) {
 
-    const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-1.5 rounded-full border-2 border-gray-300 dark:border-gray-600";
+    const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-1.5 rounded-full border-2 border-gray-200 dark:border-gray-800";
 
     return (
         <>

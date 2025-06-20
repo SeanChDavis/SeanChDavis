@@ -16,6 +16,7 @@ export default function Uses({ linkClasses, headingClasses, mainHeadingClasses, 
                         <li>Browser: Chrome (DevTools), Firefox</li>
                         <li>Tools: GitHub, <a href="https://www.netlify.com/" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Netlify</a></li>
                         <li>Design: Affinity Designer + Photo</li>
+                        <li>(Currently experimenting with Next.js)</li>
                     </ul>
                 </section>
 
@@ -42,6 +43,7 @@ export default function Uses({ linkClasses, headingClasses, mainHeadingClasses, 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Lifestyle & Systems</h2>
                     <ul className={listClasses}>
+                        <li>Personal AI: ChatGPT, Claude</li>
                         <li>Cloud: Obsidian, OneDrive</li>
                         <li>Email: Gmail, <a href={"https://formspree.io/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">Formspree</a></li>
                         <li>Domains & Hosting: NameCheap, Netlify</li>
