@@ -15,7 +15,7 @@ export default function Footer() {
                     <Link to="/" className="dark:text-gray-200 dark:hover:transition dark:hover:duration-300 dark:hover:ease-in-out dark:hover:text-gray-400">
                         {siteData.siteNameShort}
                     </Link>{" "}&middot;{" "}
-                    All Rights Reserved
+                    {siteData.footerText}
                 </div>
                 <div className="flex justify-center gap-2 text-lg">
                     <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer">
