@@ -4,15 +4,15 @@ import journey from "../data/journeyData.json";
 import {FaCircle} from "react-icons/fa";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-const journeyData = journey;
+const journeyData = [...journey].reverse();
 
 export default function NetherlandsJourney({ linkClasses, headingClasses }) {
     const [expanded, setExpanded] = useState(null);
 
     return (
         <>
-            <PageHeadline text="My Journey to the Netherlands" />
-            <p>This is a living documentation of my journey from the U.S. to the Netherlands. At the time of this writing, I am not physically there yet. Mentally, the move started in June of 2024. Follow along.</p>
+            <PageHeadline text="My Journey to the Netherlands" icon="NL" />
+            <p className="mb-10">This is a living documentation of my journey from the U.S. to the Netherlands. Mentally, the move started in June of 2024. This page will be updated as the journey progresses.</p>
 
             <div className="space-y-10 border-l border-gray-300 dark:border-gray-700 ml-2">
                 {journeyData.map((entry, index) => (
@@ -27,7 +27,9 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                         <div key={index} className="relative">
                             <FaCircle className="absolute left-[-7.2px] top-[-1px] text-[14px] text-[#0080a3]" />
                             <div className="ml-7">
-                                <p className="text-sm leading-4 mb-1.5">{entry.date}</p>
+                                <p className="text-sm leading-4 mb-1.5">
+                                    {entry.date}{index === 0 && " - latest update"}
+                                </p>
                                 <h2 className={headingClasses}>{entry.title}</h2>
                                 <div className="text-md mt-1">
                                     {expanded === index ? (
@@ -40,14 +42,13 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                                                     ))}
                                                 </p>
                                             )}
-                                            <button onClick={() => setExpanded(null)} className={`${linkClasses} ${!entry.links || entry.links.length === 0 ? 'ml-2' : ''}`}>Show less</button>
                                         </>
                                     ) : (
                                         <>
-                                            {entry.description.length > 220 ? (
+                                            {entry.description.length > 50 ? (
                                                 <>
-                                                    {entry.description.substring(0, 220)}...
-                                                    <button onClick={() => setExpanded(index)} className={`${linkClasses} ml-2`}>Read more</button>
+                                                    {entry.description.substring(0, 50)}...
+                                                    <button onClick={() => setExpanded(index)} className={`${linkClasses} ml-2`}>read more</button>
                                                 </>
                                             ) : (
                                                 entry.description
@@ -62,9 +63,8 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
             </div>
 
             <div className="mt-12">
-                <h2 className={headingClasses}>Not Done Yet</h2>
                 <p className="text-md mt-1">
-                    This page will be updated as my journey progresses. If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
+                    If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
             </div>
         </>

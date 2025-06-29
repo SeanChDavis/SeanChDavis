@@ -1,10 +1,22 @@
 import React from "react";
+import ReactCountryFlag from "react-country-flag"
 
-export default function PageHeadline({text}) {
+export default function PageHeadline({text, icon}) {
     return (
-        <h1 className="text-xl md:text-2xl font-extrabold text-gray-900 dark:text-gray-200 mb-5 flex items-center gap-4">
-            {/*<div className="w-1 h-[20px] rounded-xs bg-cyan-600 dark:bg-[#0080a3]"></div>*/}
+        <h1 className="text-xl md:text-2xl font-extrabold text-gray-900 dark:text-gray-200 mb-5 flex flex-wrap items-baseline gap-3.5">
             {text}
+            {icon &&
+                <ReactCountryFlag
+                    countryCode={icon}
+                    svg
+                    style={{
+                        width: '22px',
+                        height: '15px',
+                    }}
+                    title={icon}
+                    className="inline-block align-middle rounded-[2px]"
+                />
+            }
         </h1>
     );
 }

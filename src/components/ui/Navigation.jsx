@@ -5,9 +5,9 @@ import { MdAlternateEmail } from "react-icons/md";
 export default function Navigation() {
 
     const navigationLinks = [
+        {to: "/about", label: "About"},
         {to: "/projects", label: "Projects"},
         {to: "/uses", label: "Uses"},
-        {to: "/about", label: "About"},
         {to: "/contact", label: <MdAlternateEmail className="inline-block text-lg align-middle" title="Contact Sean Davis"/>}
     ];
 

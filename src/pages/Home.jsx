@@ -52,7 +52,7 @@ export default function Home({linkClasses, headingClasses, listClasses}) {
             <section className="space-y-2">
                 <h2 className={headingClasses}>Current Focus</h2>
                 <ul className={listClasses}>
-                    <li>Preparing for relocation to the Netherlands using the DAFT visa. <Link to="/netherlands-journey" className={linkClasses}>Read more &rarr;</Link></li>
+                    <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa.</li>
                     <li>Developing a long-term life strategy to include Dutch integration & sustained freedom</li>
                     <li>Building this site as my all-encompassing digital platform with optimized digital footprint</li>
                 </ul>
@@ -61,9 +61,9 @@ export default function Home({linkClasses, headingClasses, listClasses}) {
             <section className="space-y-2">
                 <h2 className={headingClasses}>Explore More</h2>
                 <ul className={listClasses}>
+                    <li><Link to="/about" className={linkClasses}>About</Link> – My background, journey, and plans</li>
                     <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>
                     <li><Link to="/uses" className={linkClasses}>Uses</Link> – My tools, stack, and workflow</li>
-                    <li><Link to="/about" className={linkClasses}>About</Link> – My background, journey, and plans</li>
                 </ul>
             </section>
         </>
