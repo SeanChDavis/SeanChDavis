@@ -4,6 +4,7 @@ import './styles.css';
 import MainLayout from "./components/layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+import Diploma from "./pages/Diploma.jsx";
 import Uses from "./pages/Uses.jsx";
 import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -14,7 +15,9 @@ export default function App() {
     const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
     const headingClasses = `text-[17px] md:text-lg font-bold ${baseHeadingClasses}`;
     const linkClasses = "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer";
-    const listClasses = "list-disc pl-4 md:pl-0 md:list-inside space-y-2 md:space-y-0";
+    const baseListClasses = "pl-4 md:pl-0 md:list-inside space-y-2 md:space-y-0";
+    const unorderedListClasses = `list-disc ${baseListClasses}`;
+    const orderedListClasses = `list-decimal ${baseListClasses}`;
 
     return (
         <Router>
@@ -24,6 +27,7 @@ export default function App() {
                     {[
                         { path: "", Component: Home },
                         { path: "about", Component: About },
+                        { path: "diploma", Component: Diploma },
                         { path: "uses", Component: Uses },
                         { path: "projects", Component: Projects },
                         { path: "contact", Component: Contact },
@@ -36,7 +40,8 @@ export default function App() {
                                 <Component
                                     linkClasses={linkClasses}
                                     headingClasses={headingClasses}
-                                    listClasses={listClasses}
+                                    unorderedListClasses={unorderedListClasses}
+                                    orderedListClasses={orderedListClasses}
                                 />
                             }
                             {...(path === "" ? { index: true } : {})}

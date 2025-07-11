@@ -1,7 +1,7 @@
 import React from 'react';
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function Projects({ linkClasses, headingClasses, listClasses }) {
+export default function Projects({ linkClasses, headingClasses, unorderedListClasses }) {
 
     return (
         <>
@@ -49,7 +49,7 @@ export default function Projects({ linkClasses, headingClasses, listClasses }) {
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Experiments</h2>
-                    <ul className={listClasses}>
+                    <ul className={unorderedListClasses}>
                         <li>This site: A personal platform, built in React + Vite. It’ll continue to evolve over time.</li>
                         <li>LitePage Studio: A now-retired microsite experiment focused on ultra-fast HTML/CSS pages.</li>
                         <li>Top One Code: My freelance identity for a short time, phased out to simplify and consolidate.</li>

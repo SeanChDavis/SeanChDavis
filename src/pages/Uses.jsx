@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function Uses({ linkClasses, headingClasses, listClasses }) {
+export default function Uses({ linkClasses, headingClasses, unorderedListClasses }) {
     
     return (
         <>
@@ -11,7 +11,7 @@ export default function Uses({ linkClasses, headingClasses, listClasses }) {
             <div className="space-y-6">
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Development</h2>
-                    <ul className={listClasses}>
+                    <ul className={unorderedListClasses}>
                         <li>Code Editor: <a href={"https://www.jetbrains.com/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">JetBrains IDEs</a>, VS Code (for quick edits)</li>
                         <li>Stack: React, NextJS, Angular, Tailwind CSS, Firebase, Git</li>
                         <li>Browser: Chrome (DevTools), Firefox</li>
@@ -22,7 +22,7 @@ export default function Uses({ linkClasses, headingClasses, listClasses }) {
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Productivity</h2>
-                    <ul className={listClasses}>
+                    <ul className={unorderedListClasses}>
                         <li>Notes & Planning: <a href="https://obsidian.md/" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Obsidian</a>, OneDrive, pen + paper</li>
                         <li>Passwords & Security: 1Password</li>
                         <li>Finances: MS Excel, manual tracking</li>
@@ -32,7 +32,7 @@ export default function Uses({ linkClasses, headingClasses, listClasses }) {
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Hardware</h2>
-                    <ul className={listClasses}>
+                    <ul className={unorderedListClasses}>
                         <li>Laptop: Dell XPS, 32GB, Windows 11</li>
                         <li>Phone: Samsung Galaxy 23 Ultra</li>
                         <li>Tablet: Samsung Galaxy Tab Ultra</li>
@@ -42,7 +42,7 @@ export default function Uses({ linkClasses, headingClasses, listClasses }) {
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Lifestyle & Systems</h2>
-                    <ul className={listClasses}>
+                    <ul className={unorderedListClasses}>
                         <li>Personal AI: ChatGPT, Claude</li>
                         <li>Cloud: Obsidian, OneDrive</li>
                         <li>Email: Gmail, <a href={"https://formspree.io/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">Formspree</a></li>

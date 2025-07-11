@@ -3,7 +3,7 @@ import React from "react";
 import siteData from "../data/siteData.json";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function About({ linkClasses, listClasses }) {
+export default function About({ linkClasses, unorderedListClasses }) {
 
     return (
         <>
@@ -16,7 +16,7 @@ export default function About({ linkClasses, listClasses }) {
 
             <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period.</p>
 
-            <ul className={listClasses}>
+            <ul className={unorderedListClasses}>
                 <li>Austin, Texas: 2012 - 2015</li>
                 <li>San Diego, California: 2015 - 2019</li>
                 <li>Chicago, Illinois: 2019 - 2021</li>

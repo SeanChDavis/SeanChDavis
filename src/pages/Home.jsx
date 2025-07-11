@@ -3,7 +3,7 @@ import siteData from "../data/siteData.json";
 import React from "react";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 
-export default function Home({linkClasses, headingClasses, listClasses}) {
+export default function Home({linkClasses, headingClasses, unorderedListClasses}) {
 
     const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-1.5 rounded-full border-2 border-gray-200 dark:border-gray-800";
 
@@ -38,7 +38,7 @@ export default function Home({linkClasses, headingClasses, listClasses}) {
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Education</h2>
-                <p>I graduated Magna Cum Laude from the University of Missouri-St. Louis with a Bachelor of Science in Information Systems. The curriculum focused primarily on software development, data management & security, and information system design & development.</p>
+                <p>I graduated Magna Cum Laude from the University of Missouri-St. Louis with a Bachelor of Science in Information Systems & Technology. The curriculum focused primarily on software development, data management & security, and information system design & development.</p>
             </section>
 
             <section className="space-y-2">
@@ -51,7 +51,7 @@ export default function Home({linkClasses, headingClasses, listClasses}) {
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Current Focus</h2>
-                <ul className={listClasses}>
+                <ul className={unorderedListClasses}>
                     <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa.</li>
                     <li>Developing a long-term life strategy to include Dutch integration & sustained freedom</li>
                     <li>Building this site as my all-encompassing digital platform with optimized digital footprint</li>
@@ -60,10 +60,11 @@ export default function Home({linkClasses, headingClasses, listClasses}) {
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Explore More</h2>
-                <ul className={listClasses}>
-                    <li><Link to="/about" className={linkClasses}>About</Link> – My background, journey, and plans</li>
+                <ul className={unorderedListClasses}>
+                    <li><Link to="/about" className={linkClasses}>About</Link> – Background, journey, and plans</li>
                     <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>
-                    <li><Link to="/uses" className={linkClasses}>Uses</Link> – My tools, stack, and workflow</li>
+                    <li><Link to="/uses" className={linkClasses}>Uses</Link> – Tools, stack, and workflow</li>
+                    <li><Link to="/diploma" className={linkClasses}>Diploma</Link> – Degree verification</li>
                 </ul>
             </section>
         </>
