@@ -6,7 +6,7 @@ export default function Diploma({ linkClasses, headingClasses, unorderedListClas
     return (
         <>
             <PageHeadline text="Bachelor of Science in Information Systems & Technology" />
-            <p className="mb-4">I graduated Magna Cum Laude from the University of Missouri-St. Louis (UMSL) with a Bachelor of Science in Information Systems. Primary skills include:</p>
+            <p className="mb-3">I graduated Magna Cum Laude from the University of Missouri-St. Louis (UMSL) with a Bachelor of Science in Information Systems & Technology. Primary skills include:</p>
             <ul className={unorderedListClasses}>
                 <li>Software & Web Development</li>
                 <li>Database Management & Security</li>
@@ -24,7 +24,7 @@ export default function Diploma({ linkClasses, headingClasses, unorderedListClas
                     </ol>
                 </section>
 
-                <img src="/Sean-Davis-BS-Information-Systems-Technology-Diploma.png" alt="Sean Davis - BS in Information Systems & Technology - Diploma" className="rounded-lg mt-8 border-1 border-gray-200 shadow-xl" />
+                <img src="/Sean-Davis-BS-Information-Systems-Technology-Diploma.png" alt="Sean Davis - BS in Information Systems & Technology - Diploma" className="rounded-lg mt-8 shadow-xl" />
             </div>
         </>
     );
