@@ -3,7 +3,7 @@ import ReactCountryFlag from "react-country-flag"
 
 export default function PageHeadline({text, icon}) {
     return (
-        <h1 className="text-xl md:text-2xl font-extrabold text-gray-900 dark:text-gray-200 mb-5 flex flex-wrap items-baseline gap-3.5">
+        <h1 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-200 mb-5 flex flex-wrap items-baseline gap-3.5">
             {text}
             {icon &&
                 <ReactCountryFlag

@@ -36,7 +36,7 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                                         <>
                                             {entry.description}
                                             {entry.links && entry.links.length > 0 && (
-                                                <p className="text-sm text-gray-700 dark:text-gray-300 font-semibold mt-2 mb-2">
+                                                <p className="text-sm text-gray-700 dark:text-gray-300 font-bold mt-3 mb-2">
                                                     {entry.links.map((link, linkIndex) => (
                                                         <span key={linkIndex}><a href={link.url} target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">{link.text}</a>{linkIndex < entry.links.length - 1 && " | "}</span>
                                                     ))}

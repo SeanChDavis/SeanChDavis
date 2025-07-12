@@ -2,31 +2,43 @@ import {Link} from "react-router-dom";
 import siteData from "../data/siteData.json";
 import React from "react";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
+import { MdAlternateEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
 export default function Home({linkClasses, headingClasses, unorderedListClasses}) {
 
-    const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-1.5 rounded-full border-2 border-gray-200 dark:border-gray-800";
+    const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-2 rounded-full flex items-center";
+    const connectIconClasses = "text-lg inline-block align-middle mr-1.5";
 
     return (
         <>
             <section className="space-y-6">
                 <PageHeadline text={siteData.siteTagline} />
-                <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 md:pb-4 mt-2">
+                <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 mt-2">
                     <div>
                         <p className="mb-6">I’m Sean — a former U.S. Army service member turned web developer and information systems
                             professional. Since 2008, I’ve been building websites and navigating various systems — military,
                             tech, academic, and personal. I enjoy mapping things out and operating within strategically set
                             boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and
                             explore the intersections of technology, systems, and life.</p>
-                        <ul className="space-x-3 flex flex-wrap">
+                        <ul className="space-x-2 md:space-x-3.5 gap-y-2.5 md:gap-y-0 flex flex-wrap">
                             <li>
-                                <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>GitHub</a>
+                                <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                                    <FaGithub className={connectIconClasses} />
+                                    <span className="leading-0"><span className="hidden lg:inline">Follow on </span>Github</span>
+                                </a>
                             </li>
                             <li>
-                                <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>LinkedIn</a>
+                                <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                                    <FaLinkedin className={connectIconClasses} />
+                                    <span className="leading-0"><span className="hidden lg:inline">Connect on </span>LinkedIn</span>
+                                </a>
                             </li>
                             <li>
-                                <Link to="/contact" className={connectClasses}>Email</Link>
+                                <Link to="/contact" className={connectClasses}>
+                                    <MdAlternateEmail className={connectIconClasses} />
+                                    <span className="leading-0"><span className="hidden lg:inline">Send an </span>Email</span>
+                                </Link>
                             </li>
                         </ul>
                     </div>
