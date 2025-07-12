@@ -11,7 +11,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses}
         <>
             <section className="space-y-6">
                 <PageHeadline text={siteData.siteTagline} />
-                <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 md:pb-6 mt-2">
+                <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 md:pb-4 mt-2">
                     <div>
                         <p className="mb-6">I’m Sean — a former U.S. Army service member turned web developer and information systems
                             professional. Since 2008, I’ve been building websites and navigating various systems — military,
@@ -31,7 +31,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses}
                         </ul>
                     </div>
                     <div className="hidden md:block">
-                        <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-28 h-28 rounded-full" />
+                        <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
                     </div>
                 </div>
             </section>

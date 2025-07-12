@@ -16,9 +16,11 @@ export default function Diploma({ linkClasses, headingClasses, unorderedListClas
             <div className="space-y-6">
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Credential Validation</h2>
-
+                    <p>
+                        To confirm the authenticity of my diploma, you can validate it using the steps below. This process is managed by UMSL's official diploma validation service.
+                    </p>
                     <ol className={orderedListClasses}>
-                        <li>Copy my unique validation code to your clipboard: <code className="font-semibold">25294Y39SRSY</code></li>
+                        <li>Copy this unique validation code to your clipboard: <code className="text-sm bg-amber-100 dark:bg-[rgba(255,255,255,.2)] dark:text-white rounded-md px-1.5 py-0.5">25294Y39SRSY</code></li>
                         <li>Visit the <a href="https://apps.umsl.edu/webapps/ITS/diplomaservice/validation.cfm" target="_blank" rel="noopener noreferrer" className={linkClasses}>UMSL Credential Validation</a> page.</li>
                         <li>Paste the validation code into the provided field and click the "Validate" button.</li>
                     </ol>
