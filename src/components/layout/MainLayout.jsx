@@ -10,7 +10,7 @@ export default function MainLayout() {
         <div className="flex flex-col min-h-screen">
             <Header />
             <div className={"flex-grow relative"}>
-                <main className="max-w-3xl mx-auto px-4 md:px-8 py-10 md:py-12 lg:pt-12 space-y-6 md:mb-8">
+                <main className="px-4 py-10 md:px-8 md:py-12 md:mb-8 lg:pt-12">
                     <SettingsPanel />
                     <Outlet />
                 </main>

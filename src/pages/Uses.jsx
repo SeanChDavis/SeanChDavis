@@ -5,7 +5,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function Uses({ linkClasses, headingClasses, unorderedListClasses }) {
     
     return (
-        <>
+        <div className="max-w-3xl mx-auto space-y-6">
             <PageHeadline text="What I Use" />
             <p>This is a living list of tools I use regularly for development, productivity, and life in general.</p>
             <div className="space-y-6">
@@ -51,6 +51,6 @@ export default function Uses({ linkClasses, headingClasses, unorderedListClasses
                     </ul>
                 </section>
             </div>
-        </>
+        </div>
     );
 }

@@ -10,7 +10,7 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
     const [expanded, setExpanded] = useState(null);
 
     return (
-        <>
+        <div className="max-w-3xl mx-auto space-y-6">
             <PageHeadline text="My Journey to the Netherlands" icon="NL" />
             <p className="mb-10">This is a living documentation of my journey from the U.S. to the Netherlands. Mentally, the move started in June of 2024. This page will be updated as the journey progresses.</p>
 
@@ -67,6 +67,6 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                     If you have any questions or want to connect about the process, feel free to <a href="/contact" className={linkClasses}>reach out</a>.
                 </p>
             </div>
-        </>
+        </div>
     );
 }

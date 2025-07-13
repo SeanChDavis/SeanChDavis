@@ -4,7 +4,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function Projects({ linkClasses, headingClasses, unorderedListClasses }) {
 
     return (
-        <>
+        <div className="max-w-3xl mx-auto space-y-6">
             <PageHeadline text="Projects & Experiments" />
             <p>
                 This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally. The technologies I use are JavaScript, React, Angular, Tailwind CSS, <a href="https://profiles.wordpress.org/sdavis2702/" target="_blank" rel="noopener noreferrer" className={linkClasses}>WordPress</a>, and more.
@@ -56,6 +56,6 @@ export default function Projects({ linkClasses, headingClasses, unorderedListCla
                     </ul>
                 </section>
             </div>
-        </>
+        </div>
     );
 }

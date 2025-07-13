@@ -11,7 +11,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses}
     const connectIconClasses = "text-lg inline-block align-middle mr-1.5";
 
     return (
-        <>
+        <div className="max-w-3xl mx-auto space-y-6">
             <section className="space-y-6">
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 mt-2">
@@ -79,6 +79,6 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses}
                     <li><Link to="/diploma" className={linkClasses}>Diploma</Link> – Degree verification</li>
                 </ul>
             </section>
-        </>
+        </div>
     );
 }

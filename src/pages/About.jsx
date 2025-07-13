@@ -6,7 +6,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function About({ linkClasses, unorderedListClasses }) {
 
     return (
-        <>
+        <div className="max-w-3xl mx-auto space-y-6">
             <PageHeadline text="A Bit More About Me" />
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
@@ -36,6 +36,6 @@ export default function About({ linkClasses, unorderedListClasses }) {
                 <strong className="dark:text-gray-200">{siteData.siteNameShort}</strong>, <br />
                 {siteData.siteTagline}
             </p>
-        </>
+        </div>
     );
 }
