@@ -4,7 +4,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function Diploma({ linkClasses, headingClasses, unorderedListClasses, orderedListClasses }) {
 
     return (
-        <div className="max-w-3xl mx-auto space-y-6">
+        <div className="max-w-[700px] mx-auto space-y-6">
             <PageHeadline text="Bachelor of Science in Information Systems & Technology" />
             <p className="mb-3">I graduated Magna Cum Laude from the University of Missouri-St. Louis (UMSL) with a Bachelor of Science in Information Systems & Technology. Primary skills include:</p>
             <ul className={unorderedListClasses}>
@@ -26,7 +26,7 @@ export default function Diploma({ linkClasses, headingClasses, unorderedListClas
                     </ol>
                 </section>
 
-                <img src="/Sean-Davis-BS-Information-Systems-Technology-Diploma.png" alt="Sean Davis - BS in Information Systems & Technology - Diploma" className="rounded-lg mt-8 shadow-xl" />
+                <img src="/images/Sean-Davis-BS-Information-Systems-Technology-Diploma.png" alt="Sean Davis - BS in Information Systems & Technology - Diploma" className="rounded-lg mt-8 shadow-xl" />
             </div>
         </div>
     );

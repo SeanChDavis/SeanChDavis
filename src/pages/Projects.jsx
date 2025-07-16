@@ -4,7 +4,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function Projects({ linkClasses, headingClasses, unorderedListClasses }) {
 
     return (
-        <div className="max-w-3xl mx-auto space-y-6">
+        <div className="max-w-[700px] mx-auto space-y-6">
             <PageHeadline text="Projects & Experiments" />
             <p>
                 This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally. The technologies I use are JavaScript, React, Angular, Tailwind CSS, <a href="https://profiles.wordpress.org/sdavis2702/" target="_blank" rel="noopener noreferrer" className={linkClasses}>WordPress</a>, and more.
@@ -51,8 +51,8 @@ export default function Projects({ linkClasses, headingClasses, unorderedListCla
                     <h2 className={headingClasses}>Experiments</h2>
                     <ul className={unorderedListClasses}>
                         <li>This site: A personal platform, built in React + Vite. It’ll continue to evolve over time.</li>
-                        <li>LitePage Studio: A now-retired microsite experiment focused on ultra-fast HTML/CSS pages.</li>
-                        <li>Top One Code: My freelance identity for a short time, phased out to simplify and consolidate.</li>
+                        <li>LitePage Studio: A retired experiment focused on ultra-fast HTML/CSS pages.</li>
+                        <li>Top One Code: My freelance identity, phased out to simplify and consolidate.</li>
                     </ul>
                 </section>
             </div>

@@ -5,47 +5,44 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
-export default function Home({linkClasses, headingClasses, unorderedListClasses}) {
-
-    const connectClasses = "text-sm font-bold bg-gray-100 dark:bg-gray-950 hover:text-cyan-600 hover:dark:text-cyan-500 px-3 py-2 rounded-full flex items-center";
-    const connectIconClasses = "text-lg inline-block align-middle mr-1.5";
+export default function Home({linkClasses, headingClasses, unorderedListClasses, connectClasses, connectIconClasses}) {
 
     return (
-        <div className="max-w-3xl mx-auto space-y-6">
-            <section className="space-y-6">
+        <div className="max-w-[700px] mx-auto space-y-6">
+            <section className="space-y-6 mb-8">
                 <PageHeadline text={siteData.siteTagline} />
-                <div className="grid md:grid-cols-[8.9fr_2.2fr] lg:grid-cols-[11fr_2.2fr] gap-6 lg:gap-8 pb-3 mt-2">
+                <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p className="mb-6">I’m Sean — a former U.S. Army service member turned web developer and information systems
+                        <p>I’m Sean — a former U.S. Army service member turned web developer and information systems
                             professional. Since 2008, I’ve been building websites and navigating various systems — military,
                             tech, academic, and personal. I enjoy mapping things out and operating within strategically set
                             boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and
                             explore the intersections of technology, systems, and life.</p>
-                        <ul className="space-x-2 md:space-x-3.5 gap-y-2.5 md:gap-y-0 flex flex-wrap">
-                            <li>
-                                <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
-                                    <FaGithub className={connectIconClasses} />
-                                    <span className="leading-0"><span className="hidden lg:inline">Follow on </span>Github</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
-                                    <FaLinkedin className={connectIconClasses} />
-                                    <span className="leading-0"><span className="hidden lg:inline">Connect on </span>LinkedIn</span>
-                                </a>
-                            </li>
-                            <li>
-                                <Link to="/contact" className={connectClasses}>
-                                    <MdAlternateEmail className={connectIconClasses} />
-                                    <span className="leading-0"><span className="hidden lg:inline">Send an </span>Email</span>
-                                </Link>
-                            </li>
-                        </ul>
                     </div>
                     <div className="hidden md:block">
-                        <img src="/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
+                        <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
                     </div>
                 </div>
+                <ul className="space-x-2 md:space-x-3.5 gap-y-2.5 md:gap-y-0 flex flex-wrap">
+                    <li>
+                        <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                            <FaGithub className={connectIconClasses} />
+                            <span className="leading-0"><span className="hidden md:inline">Follow on </span>Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                            <FaLinkedin className={connectIconClasses} />
+                            <span className="leading-0"><span className="hidden md:inline">Connect on </span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <Link to="/contact" className={connectClasses}>
+                            <MdAlternateEmail className={connectIconClasses} />
+                            <span className="leading-0"><span className="hidden md:inline">Send an </span>Email</span>
+                        </Link>
+                    </li>
+                </ul>
             </section>
 
             <section className="space-y-2">
@@ -64,9 +61,9 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses}
             <section className="space-y-2">
                 <h2 className={headingClasses}>Current Focus</h2>
                 <ul className={unorderedListClasses}>
-                    <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa.</li>
-                    <li>Developing a long-term life strategy to include Dutch integration & sustained freedom</li>
-                    <li>Building this site as my all-encompassing digital platform with optimized digital footprint</li>
+                    <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa</li>
+                    <li>Developing a long-term strategy to include Dutch integration & sustained freedom</li>
+                    <li>Building this site to serve as my all-encompassing digital platform</li>
                 </ul>
             </section>
 

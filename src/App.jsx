@@ -10,14 +10,10 @@ import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import NetherlandsJourney from "./pages/NetherlandsJourney.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import WordPress from "./pages/WordPress.jsx";
+import globalStyles from "./globalStyles.js";
 
 export default function App() {
-    const baseHeadingClasses = "text-gray-900 dark:text-gray-200";
-    const headingClasses = `text-[17px] md:text-lg font-bold ${baseHeadingClasses}`;
-    const linkClasses = "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer";
-    const baseListClasses = "pl-4 md:list-inside space-y-2 md:space-y-0";
-    const unorderedListClasses = `list-disc ${baseListClasses}`;
-    const orderedListClasses = `list-decimal ${baseListClasses}`;
 
     return (
         <Router>
@@ -32,16 +28,20 @@ export default function App() {
                         { path: "projects", Component: Projects },
                         { path: "contact", Component: Contact },
                         { path: "netherlands-journey", Component: NetherlandsJourney },
+                        // { path: "wordpress", Component: WordPress },
                     ].map(({ path, Component }) => (
                         <Route
                             key={path || "home"}
                             path={path}
                             element={
                                 <Component
-                                    linkClasses={linkClasses}
-                                    headingClasses={headingClasses}
-                                    unorderedListClasses={unorderedListClasses}
-                                    orderedListClasses={orderedListClasses}
+                                    linkClasses={globalStyles.linkClasses}
+                                    subtleLinkClasses={globalStyles.subtleLinkClasses}
+                                    headingClasses={globalStyles.headingClasses}
+                                    unorderedListClasses={globalStyles.unorderedListClasses}
+                                    orderedListClasses={globalStyles.orderedListClasses}
+                                    connectClasses={globalStyles.connectClasses}
+                                    connectIconClasses={globalStyles.connectIconClasses}
                                 />
                             }
                             {...(path === "" ? { index: true } : {})}
