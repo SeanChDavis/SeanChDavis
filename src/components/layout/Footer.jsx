@@ -10,14 +10,16 @@ export default function Footer() {
     return (
         <footer className="bg-gray-100 dark:bg-gray-950 py-6 px-4 md:px-8 text-sm text-center font-semibold">
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
-                <div>
-                    <span>&copy; {new Date().getFullYear()}</span>{" "}
-                    <Link to="/" className="dark:text-gray-200 dark:hover:transition dark:hover:duration-300 dark:hover:ease-in-out dark:hover:text-gray-400">
-                        {siteData.siteNameShort}
-                    </Link>{" "}&middot;{" "}
-                    {siteData.footerText}
+                <div className="flex flex-col md:block">
+                    <div className="block md:inline">
+                        <span>&copy; {new Date().getFullYear()}</span>{" "}&middot;{" "}
+                        {siteData.footerText}<span className="hidden md:inline">{" "}&middot;{" "}</span>
+                    </div>
+                    <div className="block md:inline">
+                        A site by <a href="https://crispydiv.com/">Crispy Div</a>.
+                    </div>
                 </div>
-                <div className="flex justify-center gap-2 text-lg">
+                <div className="flex gap-2 text-lg">
                     <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer">
                         <FaGithub className={iconClasses}/>
                     </a>

@@ -13,11 +13,10 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p>I’m Sean — a former U.S. Army service member turned web developer and information systems
+                        <p>I’m Sean — a military veteran turned web developer and information systems
                             professional. Since 2008, I’ve been building websites and navigating various systems — military,
                             tech, academic, and personal. I enjoy mapping things out and operating within strategically set
-                            boundaries. Welcome to my platform on the web, where I document my journey, share my projects, and
-                            explore the intersections of technology, systems, and life.</p>
+                            boundaries. This is my home on the web where I document my journey and share my projects.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
@@ -47,13 +46,13 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Education</h2>
-                <p>I graduated Magna Cum Laude from the University of Missouri-St. Louis with a Bachelor of Science in Information Systems & Technology. The curriculum focused primarily on software development, data management & security, and information system design & development.</p>
+                <p>I graduated from the University of Missouri-St. Louis with a Bachelor of Science in Information Systems & Technology. The curriculum focused primarily on software development, data management & security, and information system design & development.</p>
             </section>
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>I Write Code</h2>
                 <p>
-                    I specialize in web development, focusing on front-end technologies like React, NextJS, Angular, and
+                    I specialize in web development, focusing on front-end technologies like React, Astro, NextJS, and
                     Tailwind CSS. I also have extensive experience with WordPress, databases, DevOps, and back-end systems. My goal is to create accessible, intuitive applications that solve real business cases. Connect with me on <a href="https://github.com/SeanChDavis/" target="_blank" rel="noopener noreferrer" className={linkClasses}>GitHub</a> and view my <Link to="/projects" className={linkClasses}>Projects</Link> to see what I've worked on.
                 </p>
             </section>
@@ -63,7 +62,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <ul className={unorderedListClasses}>
                     <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa</li>
                     <li>Developing a long-term strategy to include Dutch integration & sustained freedom</li>
-                    <li>Building this site to serve as my all-encompassing digital platform</li>
+                    <li>Building the next stage of my career as a seasoned developer</li>
                 </ul>
             </section>
 
