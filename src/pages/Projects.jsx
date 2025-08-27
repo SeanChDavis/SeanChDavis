@@ -4,7 +4,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function Projects({ linkClasses, headingClasses, unorderedListClasses }) {
 
     return (
-        <div className="max-w-[700px] mx-auto space-y-6">
+        <div className="max-w-2xl mx-auto space-y-6">
             <PageHeadline text="Projects & Experiments" />
             <p>This is a <em>selective</em> list of things I’ve built, helped grow, or explored professionally and personally.</p>
             <div className="space-y-6">

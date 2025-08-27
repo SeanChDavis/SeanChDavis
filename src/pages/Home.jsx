@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedin  } from "react-icons/fa";
 export default function Home({linkClasses, headingClasses, unorderedListClasses, connectClasses, connectIconClasses}) {
 
     return (
-        <div className="max-w-[700px] mx-auto space-y-6">
+        <div className="max-w-2xl mx-auto space-y-6">
             <section className="space-y-6 mb-8">
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">

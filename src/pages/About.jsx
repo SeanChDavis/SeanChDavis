@@ -6,7 +6,7 @@ import PageHeadline from "../components/ui/pageHeadline.jsx";
 export default function About({ linkClasses, unorderedListClasses }) {
 
     return (
-        <div className="max-w-[700px] mx-auto space-y-6">
+        <div className="max-w-2xl mx-auto space-y-6">
             <PageHeadline text="A Bit More About Me" />
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
