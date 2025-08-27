@@ -2,20 +2,20 @@ import {useEffect, useState} from "react";
 import {MdFormatSize} from "react-icons/md";
 
 export default function TextSizeToggle() {
-    const [size, setSize] = useState("base");
+    const [size, setSize] = useState("[17px]");
 
     useEffect(() => {
-        const stored = localStorage.getItem("textSize") || "base";
+        const stored = localStorage.getItem("textSize") || "[17px]";
         setSize(stored);
-        document.documentElement.classList.remove("text-base", "text-lg");
+        document.documentElement.classList.remove("text-[17px]", "text-[19px]");
         document.documentElement.classList.add(`text-${stored}`);
     }, []);
 
     const toggleTextSize = () => {
-        const newSize = size === "base" ? "lg" : "base";
+        const newSize = size === "[17px]" ? "[19px]" : "[17px]";
         setSize(newSize);
         localStorage.setItem("textSize", newSize);
-        document.documentElement.classList.remove("text-base", "text-lg");
+        document.documentElement.classList.remove("text-[17px]", "text-[19px]");
         document.documentElement.classList.add(`text-${newSize}`);
     };
 
