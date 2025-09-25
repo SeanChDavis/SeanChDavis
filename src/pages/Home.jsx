@@ -13,10 +13,8 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p>I’m Sean — a military veteran turned web developer and information systems
-                            professional. Since 2008, I’ve been building websites and navigating various systems — military,
-                            tech, academic, and personal. I enjoy mapping things out and operating within strategically set
-                            boundaries. This is my home on the web where I document my journey and share my projects.</p>
+                        <p className="mb-6">I’m Sean&mdash;a U.S. Army veteran turned coder and Information Systems
+                            professional. I relocated to Rotterdam, Netherlands in September 2025, working as an independent contractor building websites and software. On this website, I document my life journey and share my projects. Welkom.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
@@ -60,7 +58,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
             <section className="space-y-2">
                 <h2 className={headingClasses}>Current Focus</h2>
                 <ul className={unorderedListClasses}>
-                    <li>Preparing for <Link to="/netherlands-journey" className={linkClasses}>relocation to the Netherlands</Link> using the DAFT visa</li>
+                    <li>Adjusting to <Link to="/netherlands-journey" className={linkClasses}>life in the Netherlands</Link> using the DAFT visa</li>
                     <li>Developing a long-term strategy to include Dutch integration & sustained freedom</li>
                     <li>Building the next stage of my career as a seasoned developer</li>
                 </ul>
