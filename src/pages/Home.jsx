@@ -13,8 +13,8 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p className="mb-6">I’m Sean&mdash;a U.S. Army veteran turned coder and Information Systems
-                            professional. I relocated to Rotterdam, Netherlands in September 2025, working as an independent contractor building websites and software. On this website, I document my life journey and share my projects. Welkom.</p>
+                        <p>I’m Sean&mdash;a U.S. Army veteran turned coder and Information Systems
+                            professional. I relocated to Rotterdam, Netherlands in September 2025, working as an independent contractor building websites and software. On this website, I document my journey, plans, and projects. Welkom bij mijn thuis op het internet.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
