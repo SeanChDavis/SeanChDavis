@@ -17,16 +17,16 @@ export default function About({ linkClasses, unorderedListClasses }) {
             <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period.</p>
 
             <ul className={unorderedListClasses}>
-                <li>Austin, Texas: 2012 - 2015</li>
-                <li>San Diego, California: 2015 - 2019</li>
-                <li>Chicago, Illinois: 2019 - 2021</li>
+                <li><span className={"font-medium text-gray-950 dark:text-white"}>Austin, Texas</span> - 2012&ndash;2015</li>
+                <li><span className={"font-medium text-gray-950 dark:text-white"}>San Diego, California</span> - 2015&ndash;2019</li>
+                <li><span className={"font-medium text-gray-950 dark:text-white"}>Chicago, Illinois</span> - 2019&ndash;2021</li>
             </ul>
 
-            <p>In late 2021 after selling a company with my partners at Sandhills Development LLC, I returned to St. Louis after nearly 19 years away.</p>
+            <p>Late 2021, after selling a company with my partners at Sandhills Development LLC, I returned to <span className={"font-medium text-gray-950 dark:text-white"}>St. Louis</span> after nearly 19 years away.</p>
 
             <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my development, I returned to the University of Missouri system. I've since graduated with honors from the University of Missouri-St. Louis (UMSL) with a <span className={"font-medium text-gray-950 dark:text-white"}>Bachelor of Science in Information Systems & Technology</span>.</p>
 
-            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className={linkClasses}>Planning began in July 2024</Link> and the move will be executed in September 2025 using the DAFT visa. 🎉</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className={linkClasses}>Planning began in July 2024</Link> and I am currently in Rotterdam, Netherlands pursuing DAFT visa approval. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className={linkClasses}>reach out</Link>.</p>
 
