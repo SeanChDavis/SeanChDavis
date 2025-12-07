@@ -45,10 +45,10 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                                         </>
                                     ) : (
                                         <>
-                                            {entry.description.length > 50 ? (
+                                            {entry.description.length > 220 ? (
                                                 <>
-                                                    {entry.description.substring(0, 50)}...
-                                                    <button onClick={() => setExpanded(index)} className={`${linkClasses} ml-2`}>read more</button>
+                                                    {entry.description.substring(0, 220)}...
+                                                    <button onClick={() => setExpanded(index)} className={`block ${linkClasses} capitalize font-semibold text-sm mt-3`}>read more</button>
                                                 </>
                                             ) : (
                                                 entry.description
