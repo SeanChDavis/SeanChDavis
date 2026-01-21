@@ -26,7 +26,7 @@ export default function About({ linkClasses, unorderedListClasses }) {
 
             <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my development, I returned to the University of Missouri system. I've since graduated with honors from the University of Missouri-St. Louis (UMSL) with a <span className={"font-medium text-gray-950 dark:text-white"}>Bachelor of Science in Information Systems & Technology</span>.</p>
 
-            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className={linkClasses}>Planning began in July 2024</Link> and I am currently in Rotterdam, Netherlands pursuing DAFT visa approval. 🎉</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className={linkClasses}>Planning began in July 2024.</Link> As of September 2025, I am living in Rotterdam, Netherlands. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className={linkClasses}>reach out</Link>.</p>
 
