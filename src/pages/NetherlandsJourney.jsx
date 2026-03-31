@@ -12,7 +12,7 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
     return (
         <div className="max-w-2xl mx-auto space-y-6">
             <PageHeadline text="My Journey to the Netherlands" icon="NL" />
-            <p className="mb-10">This is a living documentation of my journey from the U.S. to the Netherlands. Mentally, the move started in June of 2024. This page will be updated as the journey progresses.</p>
+            <p className="mb-10">A record of my move from the U.S. to the Netherlands, documented milestone by milestone starting in June 2024. Each entry is written at the time of the milestone — so earlier ones may reference things that have since happened.</p>
 
             <div className="space-y-10 border-l border-gray-300 dark:border-gray-700 ml-2">
                 {journeyData.map((entry, index) => (
