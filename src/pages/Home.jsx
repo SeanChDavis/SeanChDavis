@@ -21,15 +21,15 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 </div>
                 <ul className="space-x-2 md:space-x-3.5 gap-y-2.5 md:gap-y-0 flex flex-wrap">
                     <li>
-                        <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
-                            <FaGithub className={connectIconClasses} />
-                            <span className="leading-0"><span className="hidden md:inline">Follow on </span>Github</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
                             <FaLinkedin className={connectIconClasses} />
                             <span className="leading-0"><span className="hidden md:inline">Connect on </span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                            <FaGithub className={connectIconClasses} />
+                            <span className="leading-0"><span className="hidden md:inline">Follow on </span>Github</span>
                         </a>
                     </li>
                     <li>
