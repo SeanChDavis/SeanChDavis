@@ -44,7 +44,7 @@ export default function Uses({ linkClasses, headingClasses, unorderedListClasses
                         <li>Cloud: Obsidian, OneDrive</li>
                         <li>Email: Gmail, <a href={"https://formspree.io/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">Formspree</a></li>
                         <li>Domains & Hosting: NameCheap, Cloudways, Netlify</li>
-                        <li>Banking: <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Wise</a> for holding and managing euros</li>
+                        <li>Banking: ING (Netherlands), <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Wise</a> for transfers</li>
                     </ul>
                 </section>
             </div>
