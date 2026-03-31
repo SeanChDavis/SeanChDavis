@@ -31,7 +31,7 @@ export default function Projects({ linkClasses, headingClasses, unorderedListCla
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Cordial <span className={"text-xs"}>(2022 - 2024)</span></h2>
-                    <p>I helped maintain <a href="https://cordial.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Cordial.com</a> through various development tasks alongside their brand and creative work, including a period of covering site needs while their primary developer was on leave.</p>
+                    <p>I helped maintain <a href="https://cordial.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Cordial.com</a> through various development tasks, working alongside their Brand Creative on the site, including a period of covering site needs while their primary developer was on leave.</p>
                 </section>
 
                 <section className="space-y-2">
