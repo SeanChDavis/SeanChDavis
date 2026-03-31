@@ -10,11 +10,11 @@ export default function About({ linkClasses, unorderedListClasses }) {
             <PageHeadline text="A Bit More About Me" />
             <p>Thanks for taking the time to read more. I won't keep you long.</p>
 
-            <p>I am from St. Louis, Missouri, born and raised. I left St. Louis in 2003 to join the U.S. Army after an uncomfortable semester at the University of Missouri-Columbia (Mizzou). I enlisted for four years, but continued serving for nine.</p>
+            <p>I'm from St. Louis, Missouri, born and raised. I left in 2003 to join the U.S. Army — at 18, after an uncomfortable semester at the University of Missouri-Columbia (Mizzou). I enlisted for four years, but ended up serving for nine.</p>
 
-            <p>My time in service includes three combat tours to Iraq and a tour in South Korea. I was discharged honorably in early 2012, which is when I transitioned to web development.</p>
+            <p>My time in service included three combat tours to Iraq and a tour in South Korea. I was honorably discharged in early 2012 and moved into web development shortly after.</p>
 
-            <p>From 2012 to 2021, I worked from home as a web developer. I spent anywhere from 2-4 years in various cities during this period.</p>
+            <p>For the next nine years I worked remotely as a developer, moving around a fair amount.</p>
 
             <ul className={unorderedListClasses}>
                 <li><span className={"font-medium text-gray-950 dark:text-white"}>Austin, Texas</span> - 2012&ndash;2015</li>
@@ -24,9 +24,9 @@ export default function About({ linkClasses, unorderedListClasses }) {
 
             <p>Late 2021, after selling a company with my partners at Sandhills Development LLC, I returned to <span className={"font-medium text-gray-950 dark:text-white"}>St. Louis</span> after nearly 19 years away.</p>
 
-            <p>Shortly thereafter, now with the lifestyle freedom to plan the next phase of my development, I returned to the University of Missouri system. I've since graduated with honors from the University of Missouri-St. Louis (UMSL) with a <span className={"font-medium text-gray-950 dark:text-white"}>Bachelor of Science in Information Systems & Technology</span>.</p>
+            <p>With some room to breathe for the first time in a while, I went back to school — this time at the University of Missouri-St. Louis (UMSL). I graduated with honors with a <span className={"font-medium text-gray-950 dark:text-white"}>Bachelor of Science in Information Systems & Technology</span>.</p>
 
-            <p>During my time at UMSL I studied abroad in Bremen, Germany. It was an awesome experience. I also spent time in the Netherlands and decided that would be my next move. <Link to="/netherlands-journey" className={linkClasses}>Planning began in July 2024.</Link> As of September 2025, I am living in Rotterdam, Netherlands. 🎉</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. That trip also took me to the Netherlands — and I knew pretty quickly it was where I wanted to be. I started planning the move in July 2024 and have been <Link to="/netherlands-journey" className={linkClasses}>documenting the journey</Link> since. As of January 2026, I'm living in Rotterdam with a residence permit in hand. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className={linkClasses}>reach out</Link>.</p>
 
