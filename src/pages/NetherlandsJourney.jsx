@@ -34,7 +34,9 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                                 <div className="text-md mt-1">
                                     {expanded === index ? (
                                         <>
-                                            {entry.description}
+                                            {entry.description.map((paragraph, pIndex) => (
+                                                <p key={pIndex} className={pIndex > 0 ? "mt-3" : ""}>{paragraph}</p>
+                                            ))}
                                             {entry.links && entry.links.length > 0 && (
                                                 <p className="text-sm text-gray-700 dark:text-gray-300 font-bold mt-3 mb-2">
                                                     {entry.links.map((link, linkIndex) => (
@@ -42,16 +44,13 @@ export default function NetherlandsJourney({ linkClasses, headingClasses }) {
                                                     ))}
                                                 </p>
                                             )}
+                                            <button onClick={() => setExpanded(null)} className={`block ${linkClasses} capitalize font-semibold text-sm mt-3`}>read less</button>
                                         </>
                                     ) : (
                                         <>
-                                            {entry.description.length > 220 ? (
-                                                <>
-                                                    {entry.description.substring(0, 220)}...
-                                                    <button onClick={() => setExpanded(index)} className={`block ${linkClasses} capitalize font-semibold text-sm mt-3`}>read more</button>
-                                                </>
-                                            ) : (
-                                                entry.description
+                                            <p>{entry.description[0]}</p>
+                                            {entry.description.length > 1 && (
+                                                <button onClick={() => setExpanded(index)} className={`block ${linkClasses} capitalize font-semibold text-sm mt-3`}>read more</button>
                                             )}
                                         </>
                                     )}
