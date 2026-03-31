@@ -13,7 +13,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p>I'm Sean — U.S. Army veteran, web developer, and since September 2025, living in Rotterdam, Netherlands. This site is a place to share who I am and document the journey.</p>
+                        <p>I'm Sean — military veteran, web developer, and since September 2025, living in Rotterdam, Netherlands. This site is a place to share who I am and document the journey.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
@@ -44,12 +44,12 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
             <section className="space-y-2">
                 <h2 className={headingClasses}>Background</h2>
                 <p>I grew up in St. Louis, joined the U.S. Army at 18, and served for nine years — including time in Iraq and South Korea. After leaving the service in 2012, I got into web development. I spent years freelancing and was a partner at a software company called <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a> until it was sold in 2021.</p>
-                <p>After that, I went back to school at the University of Missouri&ndash;St. Louis (UMSL). A study abroad program took me to Germany, I visited the Netherlands while I was there, and I decided that's where I wanted to be next. As of January 2026, I have a Dutch residence permit and I'm figuring out the rest.</p>
+                <p>After that, I went back to school at the University of Missouri&ndash;St. Louis (UMSL). A study abroad program took me to Germany, I visited the Netherlands while I was there, and I decided that's where I wanted to be next. As of January 2026, I have a Dutch residence permit.</p>
             </section>
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>What I Do</h2>
-                <p>I build websites and software through my company, <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>, which focuses on custom WordPress development. My broader toolkit covers React, Astro, Next.js, Tailwind CSS, and more — I've been doing this kind of work since 2008 and the stack just depends on what the project needs.</p>
+                <p>I build websites and software through my company, <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>, which focuses on custom WordPress development. My broader toolkit covers React, Astro, Next.js, Tailwind CSS, AI-assisted development, and more — I've been doing this kind of work since 2008 and the stack just depends on what the project needs.</p>
             </section>
 
             <section className="space-y-2">
