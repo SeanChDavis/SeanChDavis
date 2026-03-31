@@ -43,7 +43,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Background</h2>
-                <p>I grew up in St. Louis, joined the U.S. Army at 19, and served for nine years — including time in Iraq and South Korea. After leaving the service in 2012, I got into web development. I spent years freelancing and was a partner at a software company called <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a> until it was sold in 2021.</p>
+                <p>I grew up in St. Louis, joined the U.S. Army at 18, and served for nine years — including time in Iraq and South Korea. After leaving the service in 2012, I got into web development. I spent years freelancing and was a partner at a software company called <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a> until it was sold in 2021.</p>
                 <p>After that, I went back to school at the University of Missouri&ndash;St. Louis (UMSL). A study abroad program took me to Germany, I visited the Netherlands while I was there, and I decided that's where I wanted to be next. As of January 2026, I have a Dutch residence permit and I'm figuring out the rest.</p>
             </section>
 
