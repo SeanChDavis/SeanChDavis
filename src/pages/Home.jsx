@@ -13,7 +13,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p>I'm Sean — a U.S. Army veteran, web developer, and since September 2025, a resident of Rotterdam, Netherlands. I built a career in software, lived across four U.S. cities, earned a degree, and eventually packed everything into one bag and crossed the Atlantic. This site is where I keep the record straight.</p>
+                        <p>I'm Sean — Army veteran, web developer, and since September 2025, living in Rotterdam, Netherlands. This site is a place to share who I am and document the journey.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
@@ -42,21 +42,21 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>The Short Version</h2>
-                <p>I enlisted in the U.S. Army at 19, served nine years, and completed three combat tours in Iraq. After an honorable discharge in 2012, I transitioned into web development. Over the next decade I freelanced, became a partner at <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a>, and exited when the company was sold in 2021. I went back to school at the University of Missouri&ndash;St. Louis, graduated with honors with a BS in Information Systems &amp; Technology, studied abroad in Germany, and decided Rotterdam was next. As of January 2026, I hold a Dutch residence permit.</p>
+                <h2 className={headingClasses}>Background</h2>
+                <p>I grew up in St. Louis, joined the Army at 19, and served for nine years — including time in Iraq and South Korea. After leaving the service in 2012, I got into web development. I spent years freelancing, was a partner at a software company called <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a> until it was sold, then went back to school at UMSL. A study abroad program took me to Germany, I visited the Netherlands, and I decided that's where I wanted to be. As of January 2026, I have a Dutch residence permit and I'm figuring out the rest.</p>
             </section>
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>What I Do</h2>
-                <p>I work as an independent contractor building websites and software under <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>. My stack leans toward React, Astro, Next.js, and Tailwind CSS. I've been doing this since 2008 — it's not a pivot, it's a career.</p>
+                <p>I build websites and software through my company, <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>. Mostly React, Astro, Next.js, and Tailwind CSS — have been doing this kind of work since 2008.</p>
             </section>
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>Right Now</h2>
                 <ul className={unorderedListClasses}>
-                    <li>Establishing myself as an independent developer in the Netherlands</li>
-                    <li>Learning Dutch — seriously, not just Duolingo (<Link to="/netherlands-journey" className={linkClasses}>read the journey</Link>)</li>
-                    <li>Building toward long-term residency and integration</li>
+                    <li>Working as an independent contractor in the Netherlands</li>
+                    <li>Learning Dutch — been at it since 2024 (<Link to="/netherlands-journey" className={linkClasses}>read the journey</Link>)</li>
+                    <li>Settling in and figuring out what the next chapter looks like</li>
                 </ul>
             </section>
 
