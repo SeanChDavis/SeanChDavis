@@ -34,5 +34,6 @@ storage.rules
 # System files
 Thumbs.db
 
-# Claude instructions
+# Claude — instructions, worktrees, and all related tooling
 CLAUDE.md
+.claude/
