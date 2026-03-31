@@ -11,7 +11,7 @@ export default function Projects({ linkClasses, headingClasses, unorderedListCla
 
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Crispy Div <span className={"text-xs"}>(2023 – Present)</span></h2>
-                    <p><a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a> is my web development and design home. I work with various technologies, including React, Astro, NextJS, PageMotor, WordPress and Tailwind CSS, to create accessible, user-friendly web applications. Crispy Div aims to maintain expertise in modern web development while also exploring new technologies and methodologies.</p>
+                    <p><a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a> is my WordPress development company, focused on custom themes, plugin integration, and bespoke solutions for clients who need more than an off-the-shelf site. Based in Rotterdam, working globally.</p>
                 </section>
 
                 <section className="space-y-2">
