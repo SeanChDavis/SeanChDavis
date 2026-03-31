@@ -10,7 +10,6 @@ import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import NetherlandsJourney from "./pages/NetherlandsJourney.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
-import WordPress from "./pages/WordPress.jsx";
 import globalStyles from "./globalStyles.js";
 
 export default function App() {
@@ -28,7 +27,6 @@ export default function App() {
                         { path: "projects", Component: Projects },
                         { path: "contact", Component: Contact },
                         { path: "netherlands-journey", Component: NetherlandsJourney },
-                        // { path: "wordpress", Component: WordPress },
                     ].map(({ path, Component }) => (
                         <Route
                             key={path || "home"}
