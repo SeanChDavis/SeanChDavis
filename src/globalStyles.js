@@ -1,5 +1,5 @@
 const globalStyles = {
-    headingClasses: "text-[17px] md:text-lg font-bold text-gray-900 dark:text-gray-200",
+    headingClasses: "text-[17px] md:text-lg font-heading font-normal text-gray-900 dark:text-gray-200",
     linkClasses: "text-[#0080a3] dark:text-cyan-500 underline hover:no-underline cursor-pointer",
     subtleLinkClasses: "underline hover:no-underline cursor-pointer",
     unorderedListClasses: "list-disc pl-4 md:list-inside space-y-2 md:space-y-0",

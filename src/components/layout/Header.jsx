@@ -12,7 +12,7 @@ export default function Header() {
         <header
             className="w-full border-b-3 bg-gray-900 text-gray-400 border-[#0080a3] dark:border-gray-800 py-4 px-4 md:px-8">
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
-                <h1 className="text-lg font-semibold">
+                <h1 className="text-lg font-heading font-normal">
                     <Link to="/" className="text-gray-200 flex items-center gap-x-1.5 group">
                         <span className="inline-block">{siteData.siteName}</span>
                         {location.pathname !== "/" && (
