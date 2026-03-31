@@ -6,6 +6,7 @@ export default function Navigation() {
 
     const navigationLinks = [
         {to: "/about", label: "About"},
+        {to: "/netherlands-journey", label: "Journey"},
         {to: "/projects", label: "Projects"},
         {to: "/uses", label: "Uses"},
         {to: "/contact", label: <MdAlternateEmail className="inline-block text-lg align-middle" title="Contact Sean Davis"/>}

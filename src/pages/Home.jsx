@@ -13,8 +13,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                 <PageHeadline text={siteData.siteTagline} />
                 <div className="grid md:grid-cols-[11fr_2.2fr] gap-x-8">
                     <div>
-                        <p>I’m Sean&mdash;a U.S. Army veteran turned coder and Information Systems
-                            professional. I relocated to Rotterdam, Netherlands in September 2025, working as an independent contractor building websites and software. On this website, I document my journey, plans, and projects. Welkom bij mijn thuis op het internet.</p>
+                        <p>I'm Sean — a U.S. Army veteran, web developer, and since September 2025, a resident of Rotterdam, Netherlands. I built a career in software, lived across four U.S. cities, earned a degree, and eventually packed everything into one bag and crossed the Atlantic. This site is where I keep the record straight.</p>
                     </div>
                     <div className="hidden md:block">
                         <img src="/images/sean-davis-headshot.png" alt="Sean's Headshot" className="w-24 h-24 rounded-full" />
@@ -43,34 +42,32 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>Education</h2>
-                <p>I graduated from the University of Missouri-St. Louis with a Bachelor of Science in Information Systems & Technology. The curriculum focused primarily on software development, data management & security, and information system design & development.</p>
+                <h2 className={headingClasses}>The Short Version</h2>
+                <p>I enlisted in the U.S. Army at 19, served nine years, and completed three combat tours in Iraq. After an honorable discharge in 2012, I transitioned into web development. Over the next decade I freelanced, became a partner at <a href="https://sandhillsdev.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Sandhills Development</a>, and exited when the company was sold in 2021. I went back to school at the University of Missouri&ndash;St. Louis, graduated with honors with a BS in Information Systems &amp; Technology, studied abroad in Germany, and decided Rotterdam was next. As of January 2026, I hold a Dutch residence permit.</p>
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>I Write Code</h2>
-                <p>
-                    I specialize in web development, focusing on front-end technologies like React, Astro, NextJS, and
-                    Tailwind CSS. I also have extensive experience with WordPress, databases, DevOps, and back-end systems. My goal is to create accessible, intuitive applications that solve real business cases. Connect with me on <a href="https://github.com/SeanChDavis/" target="_blank" rel="noopener noreferrer" className={linkClasses}>GitHub</a> and view my <Link to="/projects" className={linkClasses}>Projects</Link> to see what I've worked on.
-                </p>
+                <h2 className={headingClasses}>What I Do</h2>
+                <p>I work as an independent contractor building websites and software under <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>. My stack leans toward React, Astro, Next.js, and Tailwind CSS. I've been doing this since 2008 — it's not a pivot, it's a career.</p>
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>Current Focus</h2>
+                <h2 className={headingClasses}>Right Now</h2>
                 <ul className={unorderedListClasses}>
-                    <li>Adjusting to <Link to="/netherlands-journey" className={linkClasses}>life in the Netherlands</Link> using the DAFT visa</li>
-                    <li>Developing a long-term strategy to include Dutch integration & sustained freedom</li>
-                    <li>Building the next stage of my career as a seasoned developer</li>
+                    <li>Establishing myself as an independent developer in the Netherlands</li>
+                    <li>Learning Dutch — seriously, not just Duolingo (<Link to="/netherlands-journey" className={linkClasses}>read the journey</Link>)</li>
+                    <li>Building toward long-term residency and integration</li>
                 </ul>
             </section>
 
             <section className="space-y-2">
-                <h2 className={headingClasses}>Explore More</h2>
+                <h2 className={headingClasses}>Explore</h2>
                 <ul className={unorderedListClasses}>
-                    <li><Link to="/about" className={linkClasses}>About</Link> – Background, journey, and plans</li>
-                    <li><Link to="/projects" className={linkClasses}>Projects</Link> – Experiments and things I’ve built</li>
-                    <li><Link to="/uses" className={linkClasses}>Uses</Link> – Tools, stack, and workflow</li>
-                    <li><Link to="/diploma" className={linkClasses}>Diploma</Link> – Degree verification</li>
+                    <li><Link to="/about" className={linkClasses}>About</Link> — the longer version</li>
+                    <li><Link to="/netherlands-journey" className={linkClasses}>Netherlands Journey</Link> — how the move actually happened</li>
+                    <li><Link to="/projects" className={linkClasses}>Projects</Link> — things I've built</li>
+                    <li><Link to="/uses" className={linkClasses}>Uses</Link> — tools and setup</li>
+                    <li><Link to="/diploma" className={linkClasses}>Diploma</Link> — degree verification</li>
                 </ul>
             </section>
         </div>
