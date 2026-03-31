@@ -33,3 +33,6 @@ storage.rules
 
 # System files
 Thumbs.db
+
+# Claude instructions
+CLAUDE.md
