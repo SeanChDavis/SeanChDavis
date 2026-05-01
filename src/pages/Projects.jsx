@@ -10,6 +10,11 @@ export default function Projects({ linkClasses, headingClasses, unorderedListCla
             <div className="space-y-6">
 
                 <section className="space-y-2">
+                    <h2 className={headingClasses}>Keystone <span className={"text-xs"}>(2026 – Present)</span></h2>
+                    <p><a href="https://keystone.crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Keystone</a> is a WordPress plugin that gives small teams an internal knowledge base without adding another tool to the stack. Teams can organize SOPs, policies, and onboarding materials, track who's completed what, and verify that knowledge is actually landing — not just stored somewhere. Flat fee, no per-seat pricing, self-hosted on WordPress.</p>
+                </section>
+
+                <section className="space-y-2">
                     <h2 className={headingClasses}>Crispy Div <span className={"text-xs"}>(2023 – Present)</span></h2>
                     <p><a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a> is my WordPress development company, focused on custom themes, plugin integration, and bespoke solutions for clients who need more than an off-the-shelf site. Based in Rotterdam, working globally.</p>
                 </section>
