@@ -6,6 +6,18 @@ I'm Sean — a U.S. Army veteran and web developer based in Rotterdam, Netherlan
 
 ---
 
+## 🔑 Keystone — WordPress Knowledge Base Plugin
+
+> **"Stored isn't the same as known."**
+
+[Keystone](https://keystone.crispydiv.com) is a WordPress plugin that gives small teams an internal knowledge base without adding another tool to the stack. Organize SOPs, policies, and onboarding materials — and actually verify that your team has read them.
+
+**$99/year. Flat fee. No per-seat pricing. Self-hosted on WordPress.**
+
+→ [keystone.crispydiv.com](https://keystone.crispydiv.com)
+
+---
+
 ## What I'm Doing Now
 
 - Living and working in Rotterdam, Netherlands on a DAFT visa (residence permit acquired January 2026)
