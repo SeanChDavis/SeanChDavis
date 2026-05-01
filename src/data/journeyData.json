@@ -210,16 +210,6 @@
     ]
   },
   {
-    "date": "April 2026",
-    "title": "I got an apartment 🏠",
-    "type": "Milestone",
-    "description": [
-      "It finally happened. After months of applications, very few viewings, and a lot of patience, I got an offer accepted on an apartment in Rotterdam.",
-      "Leaving The Social Hub after several months was bittersweet — it was genuinely a great place to land during an uncertain time. But there's no substitute for your own space. Unpacking what fit into one bag and spreading it across an apartment on a lease that's yours is a different feeling entirely.",
-      "This feels like the real beginning. Not the visa, not the BSN, not even the residence permit — the apartment. Having a place that is genuinely mine, in the city I chose, is what makes it all land."
-    ]
-  },
-  {
     "date": "March 2026",
     "title": "Apartment hunting in the Netherlands is not for the weak 😰",
     "type": "Living",
@@ -227,6 +217,23 @@
       "The Netherlands has a serious housing shortage, especially in popular cities like Rotterdam and Amsterdam. This isn't new information, but it's something I didn't fully grasp until I started apartment hunting in early 2026. Wow.",
       "The process is brutal. Apartments are scarce, expensive, and highly competitive. To date, I have applied to over three dozen listings. This has led to three viewings and zero offers accepted. I knew it would be difficult, but nothing can prepare you for the reality of it until you're in the thick of it. It's a full-time job just applying to apartments.",
       "The good news is that I still have a roof over my head at The Social Hub. I am extremely comfortable, but the clock is ticking. My target apartment would cost roughly €1,200 less than my current temporary housing, so the financial incentive is there. I just need to get lucky and find the right fit. In the meantime, I will continue applying and hope for the best."
+    ]
+  },
+  {
+    "date": "April 2026",
+    "title": "I got an apartment 🏠",
+    "type": "Milestone",
+    "description": [
+      "It finally happened. After months of scrolling Pararius and Funda, I decided to hire an agency. They were able to help me secure a space in just two weeks. I'm incredibly grateful for Your Expat Butler.",
+      "Leaving The Social Hub (TSH) after several months was bittersweet. I was there for six and a half months, folks. If you're ever in need of a reminder that everything you want is on the other side of discomfort - mental discomfort, in this case - there you go.",
+      "My new apartment is not only furnished, but serviced with everything I need to live comfortably. The rent is affordable (nearly €900/month less than what I was paying at TSH), the area is so walkable that go days without touching my bike, and the unit itself is perfect for a single person. I have been here for two weeks now and it feels like my entire being has finally relaxed. I've had several important milestones along this journey, but nothing tops how I feel now that I am here.",
+      "That's it for now. I don't know if I will update this page again. I probably will. 🫡"
+    ],
+    "links": [
+      {
+        "text": "Your Expat Butler",
+        "url": "https://www.yourexpatbutler.com/"
+      }
     ]
   }
 ]
