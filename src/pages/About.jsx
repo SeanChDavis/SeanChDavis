@@ -26,7 +26,7 @@ export default function About({ linkClasses, unorderedListClasses }) {
 
             <p>With some room to breathe for the first time in a while, I went back to school — this time at the University of Missouri-St. Louis (UMSL). I graduated with honors with a <span className={"font-medium text-gray-950 dark:text-white"}>Bachelor of Science in Information Systems & Technology</span>.</p>
 
-            <p>During my time at UMSL I studied abroad in Bremen, Germany. That trip also took me to the Netherlands — and I knew pretty quickly it was where I wanted to be. I started planning the move in July 2024 and have been <Link to="/netherlands-journey" className={linkClasses}>documenting the journey</Link> since. As of January 2026, I'm living in Rotterdam with a residence permit in hand. 🎉</p>
+            <p>During my time at UMSL I studied abroad in Bremen, Germany. That trip also took me to the Netherlands — and I knew pretty quickly it was where I wanted to be. I started planning the move in July 2024 and have been <Link to="/netherlands-journey" className={linkClasses}>documenting the journey</Link> since. I moved to Rotterdam, Netherlands in September 2025. As of January 2026, I have a Dutch residence permit in hand. 🎉</p>
 
             <p>If you made it this far, I appreciate you. Feel free to <Link to="/contact" className={linkClasses}>reach out</Link>.</p>
 

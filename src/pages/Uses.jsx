@@ -13,7 +13,7 @@ export default function Uses({ linkClasses, headingClasses, unorderedListClasses
                     <h2 className={headingClasses}>Development</h2>
                     <ul className={unorderedListClasses}>
                         <li>Code Editor: <a href={"https://www.jetbrains.com/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">JetBrains IDEs</a>, VS Code (for quick edits)</li>
-                        <li>Stack: React, Astro, Next.js, Angular, Tailwind CSS, Firebase, Git</li>
+                        <li>Stack: WordPress, React, Git, Astro, Next.js, Angular, Tailwind CSS, Firebase</li>
                         <li>Browser: Chrome (DevTools), Firefox</li>
                         <li>Design: Affinity Designer + Photo</li>
                     </ul>
@@ -40,10 +40,10 @@ export default function Uses({ linkClasses, headingClasses, unorderedListClasses
                 <section className="space-y-2">
                     <h2 className={headingClasses}>Lifestyle & Systems</h2>
                     <ul className={unorderedListClasses}>
-                        <li>Personal AI: ChatGPT, Claude</li>
+                        <li>Personal AI: Claude</li>
                         <li>Cloud: Obsidian, OneDrive</li>
                         <li>Email: Gmail, <a href={"https://formspree.io/"} className={linkClasses} target={"_blank"} rel="noopener noreferrer">Formspree</a></li>
-                        <li>Domains & Hosting: NameCheap, Cloudways, Netlify</li>
+                        <li>Domains & Hosting: NameCheap, Cloudways</li>
                         <li>Banking: ING (Netherlands), <a href="https://wise.com/invite/dic/seand823" className={linkClasses} target={"_blank"} rel="noopener noreferrer">Wise</a> for transfers</li>
                     </ul>
                 </section>

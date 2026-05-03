@@ -9,8 +9,8 @@ export default function Diploma({ linkClasses, headingClasses, unorderedListClas
             <p className="mb-3">I graduated Magna Cum Laude from the University of Missouri-St. Louis (UMSL) with a Bachelor of Science in Information Systems & Technology. Primary skills include:</p>
             <ul className={unorderedListClasses}>
                 <li>Software & Web Development</li>
-                <li>Database Management & Security</li>
                 <li>Information Systems Analysis & Design</li>
+                <li>Database Management & Security</li>
             </ul>
 
             <div className="space-y-6">
