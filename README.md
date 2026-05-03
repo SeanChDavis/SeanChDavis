@@ -29,8 +29,8 @@ I'm Sean — a U.S. Army veteran and web developer based in Rotterdam, Netherlan
 
 ## Tools & Tech I Use
 
-- React · Astro · Next.js · Angular · Tailwind CSS
 - WordPress · PHP · JavaScript · HTML · CSS
+- React · Astro · Next.js · Angular · Tailwind CSS
 - Firebase · Git · Affinity Designer/Photo
 - AI-assisted development
 
