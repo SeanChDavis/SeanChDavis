@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import siteData from "../../data/siteData.json";
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaXTwitter} from "react-icons/fa6";
 import {MdAlternateEmail} from "react-icons/md";
 
 export default function Footer() {
@@ -20,11 +20,14 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex gap-2 text-lg">
-                    <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <FaGithub className={iconClasses}/>
+                    <a href={siteData.xUrl} target="_blank" rel="noopener noreferrer">
+                        <FaXTwitter className={iconClasses}/>
                     </a>
                     <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className={iconClasses}/>
+                    </a>
+                    <a href={siteData.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <FaGithub className={iconClasses}/>
                     </a>
                     <Link to="/contact">
                         <MdAlternateEmail className={iconClasses}/>

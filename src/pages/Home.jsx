@@ -3,7 +3,7 @@ import siteData from "../data/siteData.json";
 import React from "react";
 import PageHeadline from "../components/ui/pageHeadline.jsx";
 import { MdAlternateEmail } from "react-icons/md";
-import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaXTwitter  } from "react-icons/fa6";
 
 export default function Home({linkClasses, headingClasses, unorderedListClasses, connectClasses, connectIconClasses}) {
 
@@ -20,6 +20,12 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
                     </div>
                 </div>
                 <ul className="space-x-2 md:space-x-3.5 gap-y-2.5 md:gap-y-0 flex flex-wrap">
+                    <li>
+                        <a href={siteData.xUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
+                            <FaXTwitter className={connectIconClasses} />
+                            <span className="leading-0"><span className="hidden md:inline">Follow on </span>X</span>
+                        </a>
+                    </li>
                     <li>
                         <a href={siteData.linkedinUrl} target="_blank" rel="noopener noreferrer" className={connectClasses}>
                             <FaLinkedin className={connectIconClasses} />
