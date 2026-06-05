@@ -55,7 +55,7 @@ export default function Home({linkClasses, headingClasses, unorderedListClasses,
 
             <section className="space-y-2">
                 <h2 className={headingClasses}>What I Do</h2>
-                <p>I build websites and software through my company, <a href="https://crispydiv.com" target="_blank" rel="noopener noreferrer" className={linkClasses}>Crispy Div</a>, which focuses on custom WordPress development. My broader toolkit covers React, Astro, Next.js, Tailwind CSS, AI-assisted development, and more — I've been doing this kind of work since 2008 and the stack just depends on what the project needs.</p>
+                <p>I build websites and software through my company, Crispy Div, which focuses on custom WordPress development (latest project: <a href="https://keystone.crispydiv.com" target="_blank" className={linkClasses}>Keystone</a>). My broader toolkit covers React, Astro, Next.js, Tailwind CSS, AI-assisted development, and more — I've been doing this kind of work since 2008 and the stack just depends on what the project needs.</p>
             </section>
 
             <section className="space-y-2">
